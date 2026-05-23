@@ -10,7 +10,14 @@
       "twitterDescription": "Coffee Talk Tokyo Wiki covers recipes, endings, characters, Tomodachill clues, and achievement routes."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "demo": "Demo",
+    "guide": "Guide",
+    "recipes": "Recipes",
+    "characters": "Characters"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1004,125 +1011,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Coffee Talk Tokyo Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Brewing strategies. Master survival and crafting.",
-      "metaTitle": "Coffee Talk Tokyo Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Coffee Talk Tokyo guides covering beginner tips, Brewing system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Brewing crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Coffee Talk Tokyo Release",
+      "description": "Track launch timing, edition details, and official rollout updates for Coffee Talk Tokyo.",
+      "metaTitle": "Coffee Talk Tokyo Release - Date, Editions, and Launch Updates",
+      "metaDescription": "Follow Coffee Talk Tokyo release coverage with launch date details, edition differences, and official update timelines.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is Coffee Talk Tokyo release coverage?",
+      "whatIsDescription": "This section collects official launch timing, edition options, and announcement changes so you can quickly confirm when Coffee Talk Tokyo is available and what each store version includes.",
+      "why": "Why follow this section?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Brewing system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Confirm Availability",
+        "step1Description": "Check whether Coffee Talk Tokyo is live on your target storefront and region.",
+        "step2Title": "Compare Editions",
+        "step2Description": "Review standard, deluxe, and upgrade details before buying.",
+        "step3Title": "Catch Schedule Changes",
+        "step3Description": "Spot delays, launch windows, and post-launch timeline updates early."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Release Articles"
     },
-    "crafting": {
-      "title": "Coffee Talk Tokyo Crafting",
-      "description": "Master the Brewing fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Coffee Talk Tokyo Crafting - Brewing System & Recipes",
-      "metaDescription": "Master Coffee Talk Tokyo Brewing crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Brewing system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "platforms": {
+      "title": "Coffee Talk Tokyo Platforms",
+      "description": "See where Coffee Talk Tokyo is playable across PC, console, and storefront variants.",
+      "metaTitle": "Coffee Talk Tokyo Platforms - PC, Console, and Storefront Guide",
+      "metaDescription": "Check Coffee Talk Tokyo platform support, storefront availability, and version-specific notes for each system.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What are Coffee Talk Tokyo platform guides?",
+      "whatIsDescription": "Platform guides explain system availability, store listings, and version notes for Coffee Talk Tokyo so you can choose the best place to play.",
+      "why": "Why read platform guides?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Choose Your System",
+        "step1Description": "Compare PC and console availability before purchase.",
+        "step2Title": "Check Store Options",
+        "step2Description": "Identify which storefront has the version and pricing you want.",
+        "step3Title": "Avoid Compatibility Surprises",
+        "step3Description": "Review launch support and ecosystem notes in one place."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Platform Articles"
     },
-    "items": {
-      "title": "Coffee Talk Tokyo Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Coffee Talk Tokyo Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Coffee Talk Tokyo including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "demo": {
+      "title": "Coffee Talk Tokyo Demo",
+      "description": "Prepare for the Coffee Talk Tokyo demo with route tips, drink practice, and progression notes.",
+      "metaTitle": "Coffee Talk Tokyo Demo - Access, Length, and Walkthrough Tips",
+      "metaDescription": "Get Coffee Talk Tokyo demo coverage including access status, estimated length, drink routes, and walkthrough guidance.",
+      "categoryLabel": "DEMO",
+      "whatIs": "What is in the Coffee Talk Tokyo demo section?",
+      "whatIsDescription": "The demo section focuses on pre-release and trial content for Coffee Talk Tokyo, including access status, playable scope, and efficient ways to test core systems.",
+      "why": "Why use demo guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Brewing",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Start Faster",
+        "step1Description": "Learn the opening flow and avoid wasting demo time.",
+        "step2Title": "Practice Key Drinks",
+        "step2Description": "Rehearse common orders and branching triggers before full playthroughs.",
+        "step3Title": "Plan Full-Game Progression",
+        "step3Description": "Carry useful route knowledge from demo sessions into release builds."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Demo Articles"
     },
-    "biomes": {
-      "title": "Coffee Talk Tokyo Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Coffee Talk Tokyo Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Coffee Talk Tokyo biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "guide": {
+      "title": "Coffee Talk Tokyo Guide",
+      "description": "Use complete Coffee Talk Tokyo walkthrough strategy for story routes, pacing, and ending setup.",
+      "metaTitle": "Coffee Talk Tokyo Guide - Walkthrough, Progression, and Endings",
+      "metaDescription": "Read Coffee Talk Tokyo guide content for walkthrough flow, route planning, and efficient ending progression.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is covered in Coffee Talk Tokyo guides?",
+      "whatIsDescription": "This category provides full-playthrough support for Coffee Talk Tokyo, from beginner onboarding to route planning, scene sequencing, and ending progression strategy.",
+      "why": "Why follow guide articles?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Understand Route Logic",
+        "step1Description": "See how choices and service patterns influence story branches.",
+        "step2Title": "Reduce Missed Scenes",
+        "step2Description": "Follow day-by-day checkpoints to keep important events on track.",
+        "step3Title": "Finish Efficiently",
+        "step3Description": "Use structured progression plans to unlock more endings with fewer repeats."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Guide Articles"
     },
-    "building": {
-      "title": "Coffee Talk Tokyo Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Coffee Talk Tokyo Building - Qualia & Base Construction",
-      "metaDescription": "Master Coffee Talk Tokyo building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "recipes": {
+      "title": "Coffee Talk Tokyo Recipes",
+      "description": "Master Coffee Talk Tokyo drink recipes, ingredients, and order solutions for each customer request.",
+      "metaTitle": "Coffee Talk Tokyo Recipes - Drink List, Ingredients, and Solutions",
+      "metaDescription": "Find Coffee Talk Tokyo recipes with ingredient combinations, drink variants, and practical order-solving references.",
+      "categoryLabel": "RECIPES",
+      "whatIs": "What are Coffee Talk Tokyo recipe guides?",
+      "whatIsDescription": "Recipe guides catalog Coffee Talk Tokyo drinks, ingredient combinations, and request patterns so you can serve the right beverage without trial-and-error loops.",
+      "why": "Why use recipe references?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Serve Correct Drinks",
+        "step1Description": "Match orders quickly with clear ingredient sequences.",
+        "step2Title": "Handle Special Requests",
+        "step2Description": "Resolve temperature and variation requests with fewer retries.",
+        "step3Title": "Support Better Outcomes",
+        "step3Description": "Use accurate drink choices to preserve route progress and endings."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Recipe Articles"
     },
-    "support": {
-      "title": "Coffee Talk Tokyo Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Coffee Talk Tokyo Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Coffee Talk Tokyo including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "characters": {
+      "title": "Coffee Talk Tokyo Characters",
+      "description": "Explore Coffee Talk Tokyo character profiles, relationship context, and route-relevant story clues.",
+      "metaTitle": "Coffee Talk Tokyo Characters - Profiles, Arcs, and Route Context",
+      "metaDescription": "Browse Coffee Talk Tokyo character guides with profile details, personal arcs, and route context for better story decisions.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What is included in Coffee Talk Tokyo character coverage?",
+      "whatIsDescription": "Character coverage tracks Coffee Talk Tokyo patrons and supporting cast, with profile notes, story context, and interaction cues that matter for route outcomes.",
+      "why": "Why read character guides?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Learn Character Context",
+        "step1Description": "Understand motivations and conflict points before key scenes.",
+        "step2Title": "Spot Story Signals",
+        "step2Description": "Recognize dialogue and service cues tied to branch changes.",
+        "step3Title": "Improve Route Decisions",
+        "step3Description": "Use profile knowledge to make cleaner choices during critical chapters."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Character Articles"
     }
   }
 }

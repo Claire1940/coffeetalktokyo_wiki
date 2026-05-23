@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia para Iniciantes de Coffee Talk Tokyo: Dicas Essenciais para Novos Baristas",
+  description: "Um guia completo para iniciantes de Coffee Talk Tokyo, cobrindo receitas de bebidas, interações de personagens e mecânicas de jogo para novos jogadores.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Coffee+Talk+Tokyo+Guide",
+  date: "2026-05-23",
+  author: "Equipe Wiki de Coffee Talk Tokyo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Domine as receitas de bebidas de **Coffee Talk Tokyo** para desbloquear os melhores finais.
+- Preste atenção ao diálogo dos clientes para **preferências de bebidas**.
+- Utilize o aplicativo **Tomodachill** para relacionamentos com personagens e pistas ocultas.
+- Experimente no modo Infinito para descobrir **novas receitas** sem a pressão da história.
+- Não se esqueça da **arte latte** para pedidos específicos, pois pode ser crucial.
+</Callout>
+
+<Section icon={Map} title="Bem-vindo ao Coffee Talk Tokyo: Seus Primeiros Turnos">
+Como um novo barista na vibrante e chuvosa Tóquio de 2026, sua jornada em **Coffee Talk Tokyo** começa atrás do balcão de um aconchegante café noturno. Esta visual novel narrativa convida você a preparar bebidas, ouvir histórias emocionantes de um elenco diversificado de humanos e yōkai, e influenciar suas vidas através de suas criações de bebidas. Entender as mecânicas centrais e as sutis nuances desde o início garantirá uma experiência suave e recompensadora.
+
+**Destaques do Vídeo:**
+- Introdução ao cenário de Tóquio 2026 e aos personagens.
+- Primeiras interações com clientes e pedidos básicos de bebidas.
+- Visão geral da interface de preparo de café.
+
+<YouTubeEmbed videoId="hXoI2_LlHJA" title="Esta Demo de Coffee Talk Tokyo é Linda" />
+
+O jogo combina uma experiência de visual novel cativante com quebra-cabeças de preparo de baixo risco. Seu objetivo principal é servir as bebidas corretas aos seus clientes, o que impacta diretamente suas histórias e potenciais finais. Cada dia traz novos clientes e desafios, exigindo tanto suas habilidades de preparo quanto sua aguçada capacidade de observação.
+
+<Callout type="tip">
+Sempre preste muita atenção ao diálogo do cliente. Suas conversas frequentemente contêm dicas sutis sobre seu humor atual, preferências ou até mesmo pedidos diretos de ingredientes ou tipos de bebidas específicos.
+</Callout>
+
+### Entendendo o Básico
+
+A base do seu papel de barista em **Coffee Talk Tokyo** gira em torno de um sistema de preparo de bebidas simples, mas envolvente. Você começará com algumas receitas básicas, mas a verdadeira diversão vem de experimentar e descobrir novas misturas.
+
+<CardGrid cols={2}>
+  <Card title="Modo História">
+    - **Jogabilidade narrativa**
+    - Foco no desenvolvimento de personagens e escolhas
+    - Desbloqueia novas receitas conforme você avança
+    - Crucial para alcançar os melhores finais
+  </Card>
+  <Card title="Modo Infinito">
+    - **Pratique habilidades de preparo**
+    - Experimente ingredientes livremente
+    - Modo desafio para pedidos específicos
+    - As receitas descobertas aqui devem ser replicadas no Modo História para serem salvas
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Dominando Receitas de Bebidas e Pedidos de Clientes">
+Preparar a bebida perfeita é fundamental para progredir em **Coffee Talk Tokyo**. Cada cliente tem gostos únicos e estados emocionais que podem ser acalmados ou elevados pela bebida certa. O sistema de receitas do jogo envolve a combinação de uma base, um ingrediente primário e um ingrediente secundário.
+
+### Processo de Preparo
+
+<Steps>
+  <Step num="1" title="Escolher Temperatura">
+    Decida entre **Quente** ou **Frio**. Isso geralmente é indicado pelo pedido do cliente ou pelo nome da bebida (por exemplo, "Hojicha Gelado").
+  </Step>
+  <Step num="2" title="Selecionar Base">
+    Escolha uma das bases disponíveis: Café, Chá, Chá Verde, Chocolate ou Leite de Soja. Isso forma o perfil de sabor primário.
+  </Step>
+  <Step num="3" title="Adicionar Ingredientes">
+    Escolha dois ingredientes adicionais de uma ampla seleção (por exemplo, Mel, Gengibre, Hortelã, Lichia, Sorvete). A ordem importa para certas receitas.
+  </Step>
+  <Step num="4" title="Preparar e Servir">
+    Assim que todos os ingredientes forem selecionados, pressione o botão de preparo. O jogo animará a preparação da bebida. Para algumas bebidas, **arte latte** pode ser necessária.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Requisito de Arte Latte">
+Para certos pedidos de personagens, como o Café com Leite de Soja e Mel de Ayame no Dia 1, a **arte latte é obrigatória** para cumprir corretamente o pedido e alcançar o melhor resultado. Sempre verifique se um pedido específico exige esta etapa extra.
+</Callout>
+
+### Principais Receitas do Início do Jogo
+
+Aqui está uma tabela de bebidas essenciais que você encontrará nos primeiros dias, cruciais para construir um bom relacionamento com seus clientes:
+
+| Pessoa | Bebida | Temperatura | Ingredientes | Notas |
+|---|---|---|---|---|
+| Hendry | **Hojicha** | Quente | Hojicha, Hojicha, Hojicha | Simples, mas específico. |
+| Jun | **Chocobee Soy** | Quente | Chocolate Quente, Mel, Leite de Soja | Doce e reconfortante. |
+| Ayame | **Café com Leite de Soja e Mel** | Quente | Café, Leite de Soja, Mel | **Requer Arte Latte**. |
+| Ash | **Chá com Leite Real** | Quente | Chá, Leite de Soja, Leite de Soja | Um clássico, frequentemente solicitado. |
+| Kenji | **Coffee Float** | Frio | Café, Café, Sorvete | Um deleite refrescante. |
+| Makoto | **Matcha Mango Latte** | Frio | Chá Verde, Leite de Soja, Manga | Combinação de sabor única. |
+
+Esta tabela fornece um ponto de partida, mas lembre-se de experimentar e adaptar-se conforme as preferências dos clientes evoluem. O guia Eurogamer oferece uma lista abrangente para alcançar todos os melhores finais, um recurso valioso para baristas dedicados.
+
+</Section>
+
+<Section icon={Shield} title="Navegando pelas Histórias e Finais dos Personagens">
+O coração de **Coffee Talk Tokyo** reside em suas narrativas de personagens cativantes. Cada cliente que entra no seu café carrega seus próprios fardos, sonhos e dramas interpessoais. Seu papel se estende além de apenas servir bebidas; você se torna um confidente, um observador silencioso e, às vezes, um catalisador para a mudança.
+
+<Callout type="success" title="Alcançando os Melhores Finais">
+Para desbloquear os melhores finais para cada personagem, sirva consistentemente as bebidas corretas com base em seus pedidos e estados emocionais. Interagir com o aplicativo Tomodachill para pistas ocultas também desempenha um papel significativo.
+</Callout>
+
+### O Aplicativo Tomodachill
+
+O aplicativo de mídia social do jogo, Tomodachill, é mais do que apenas uma adição de texto de sabor. É uma ferramenta vital para entender a vida de seus clientes fora do café e descobrir informações cruciais que podem influenciar suas histórias.
+
+| Recurso | Descrição | Importância |
+|---|---|---|
+| **Postagens de Personagens** | Atualizações de clientes sobre suas vidas diárias, lutas e pensamentos. | Fornece contexto para seus pedidos e estados emocionais. |
+| **Hashtags** | Tags clicáveis que revelam postagens ocultas de personagens que você pode não seguir. | Desbloqueia novas camadas da história e pistas importantes para os melhores finais. |
+| **Livro de Receitas** | Armazena todas as receitas de bebidas descobertas para fácil referência. | Essencial para preparo rápido e lembrança. |
+| **Rastreador de Relacionamentos** | Mostra os relacionamentos em evolução entre os personagens e o barista. | Ajuda a avaliar seu impacto em suas histórias. |
+
+<Callout type="info">
+Verifique o Tomodachill regularmente. Curtir e visualizar completamente postagens específicas, especialmente aquelas sob certas hashtags como #GoodGirl ou #MisakiIto, pode desencadear novos eventos ou desbloquear informações críticas para o desenvolvimento do personagem.
+</Callout>
+
+### Interações e Diálogos de Personagens
+
+O diálogo em **Coffee Talk Tokyo** é bem escrito e realista, apesar do cenário fantástico. Suas interações, embora limitadas à preparação de bebidas e escuta, guiam sutilmente a narrativa. Não há escolhas diretas de diálogo para você, o barista, mas suas ações (ou inações) falam volumes.
+
+Quando um personagem pede algo vago como "algum chá gelado" ou "algo com um cheiro forte", você tem um certo grau de liberdade. No entanto, para os melhores resultados, geralmente é sábio escolher uma bebida que se alinhe com sua personalidade ou com a narrativa em andamento. Por exemplo, um "Chocolate de Gengibre" para um pedido de "cheiro forte" pode render resultados positivos.
+
+<Checklist
+  id="character-interaction-checklist"
+  title="Pontos Chave de Interação:"
+  items={[
+    "Ouça ativamente todas as conversas.",
+    "Observe as reações dos personagens às bebidas.",
+    "Conecte dicas do Tomodachill ao diálogo pessoal.",
+    "Lembre-se de preferências específicas para clientes recorrentes."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Dicas para uma Experiência Suave de Barista em Coffee Talk Tokyo">
+Ser um barista de sucesso em **Coffee Talk Tokyo** requer mais do que apenas conhecer receitas. É sobre criar uma atmosfera, entender sua clientela e gerenciar seu café com eficiência.
+
+### Dicas Gerais de Jogabilidade
+
+<CardGrid cols={3}>
+  <Card title="Experimente com Segurança">
+    - Use o Modo Infinito para experimentar novas combinações de ingredientes sem afetar seu progresso no Modo História ou a satisfação do cliente.
+    - Mantenha um caderno pessoal para experimentos únicos.
+  </Card>
+  <Card title="Salve Regularmente">
+    - O jogo usa um sistema de salvamento manual. Salve no final de cada dia ou após eventos significativos.
+    - Utilize os três slots de salvamento para diferentes jogatinas ou para voltar atrás se cometer um erro.
+  </Card>
+  <Card title="Aproveite a Trilha Sonora">
+    - As batidas lo-fi de Andrew AJ Jeremy melhoram a atmosfera aconchegante. Ela é projetada para relaxamento e foco.
+    - Deixe a música definir o clima enquanto você prepara e ouve.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+Se você perder um final para um personagem específico, você pode repetir dias específicos em que esse personagem aparece. Certifique-se de servir as bebidas recomendadas para esses dias e então repetir o dia final (Dia 15) para ver se o final muda.
+</Callout>
+
+### Combinações Comuns de Ingredientes de Bebidas
+
+Aqui estão algumas combinações comuns de ingredientes e seus efeitos para ajudá-lo a antecipar as necessidades dos clientes:
+
+| Base | Ingrediente Primário | Ingrediente Secundário | Efeito Comum / Perfil de Sabor |
+|---|---|---|---|
+| **Café** | Café | Leite de Soja | Café cremoso e clássico |
+| **Chá** | Yuzu | Mel | Chá calmante e cítrico |
+| **Chocolate** | Mel | Gengibre | Doçura quente e picante |
+| **Chá Verde** | Manga | Leite de Soja | Latte frutado e refrescante |
+| **Hojicha** | Gengibre | Mel | Mistura terrosa e reconfortante |
+| **Leite de Soja** | Lichia | Sorvete | Doce, guloseima gelada |
+
+Esta tabela fornece uma visão geral, mas os nomes exatos das bebidas e os pedidos específicos dos clientes o guiarão com mais precisão.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Qual a importância das receitas de bebidas em Coffee Talk Tokyo?",
+    answer: "As receitas de bebidas são incrivelmente importantes. Servir a bebida correta com base no pedido e estado emocional do cliente é crucial para avançar suas histórias individuais e alcançar os melhores finais possíveis para cada personagem em Coffee Talk Tokyo."
+  },
+  {
+    question: "Para que serve o aplicativo Tomodachill?",
+    answer: "O aplicativo Tomodachill atua como uma plataforma de mídia social dentro do jogo. Ele fornece insights sobre a vida dos personagens, revela postagens ocultas através de hashtags clicáveis e pode oferecer pistas que influenciam os resultados da história e ajudam você a desbloquear os melhores finais."
+  },
+  {
+    question: "Preciso fazer arte latte para todas as bebidas?",
+    answer: "Não, a arte latte não é necessária para todas as bebidas. No entanto, para pedidos específicos, como o Café com Leite de Soja e Mel de Ayame no Dia 1, a arte latte é obrigatória para cumprir corretamente o pedido e alcançar o resultado desejado. O jogo geralmente indicará quando for necessário."
+  },
+  {
+    question: "Posso explorar novas receitas de bebidas sem afetar meu progresso na história principal em Coffee Talk Tokyo?",
+    answer: "Sim, você pode usar o Modo Infinito para experimentar livremente combinações de ingredientes e descobrir novas receitas sem impactar seu progresso no Modo História. As receitas encontradas aqui serão salvas em seu livro de receitas assim que replicadas no Modo História."
+  }
+]} />
+
+</Section>

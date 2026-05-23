@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "demo": "Demo",
+    "guide": "Guide",
+    "recipes": "Recipes",
+    "characters": "Characters"
+  }
+}
