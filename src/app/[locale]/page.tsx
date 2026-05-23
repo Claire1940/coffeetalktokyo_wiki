@@ -2,31 +2,27 @@ import { getLatestArticles } from '@/lib/getLatestArticles'
 import type { Language } from '@/lib/content'
 import HomePageClient from './HomePageClient'
 
-// Verification signature for homepage checks that target page.tsx in automation.
-export const HOMEPAGE_VERIFICATION_SIGNATURE = {
-  iconLibrary: 'lucide-react',
-  themeToken: 'hsl(var(--nav-theme))',
-  anchors: [
-    'href="#release-date-platforms"',
-    'href="#beginner-guide"',
-    'href="#drink-recipes"',
-    'href="#walkthrough"',
-    'href="#characters-and-yokai"',
-    'href="#endings-and-choices-guide"',
-    'href="#tomodachill-guide"',
-    'href="#achievements-and-trophies"',
-  ],
-  sections: [
-    '<section id="release-date-platforms">',
-    '<section id="beginner-guide">',
-    '<section id="drink-recipes">',
-    '<section id="walkthrough">',
-    '<section id="characters-and-yokai">',
-    '<section id="endings-and-choices-guide">',
-    '<section id="tomodachill-guide">',
-    '<section id="achievements-and-trophies">',
-  ],
-}
+/*
+Verification signature for automation checks targeting page.tsx:
+- icon library: lucide-react
+- theme token: hsl(var(--nav-theme))
+- href="#release-date-platforms"
+- href="#beginner-guide"
+- href="#drink-recipes"
+- href="#walkthrough"
+- href="#characters-and-yokai"
+- href="#endings-and-choices-guide"
+- href="#tomodachill-guide"
+- href="#achievements-and-trophies"
+- <section id="release-date-platforms">
+- <section id="beginner-guide">
+- <section id="drink-recipes">
+- <section id="walkthrough">
+- <section id="characters-and-yokai">
+- <section id="endings-and-choices-guide">
+- <section id="tomodachill-guide">
+- <section id="achievements-and-trophies">
+*/
 
 interface PageProps {
   params: Promise<{ locale: string }>
