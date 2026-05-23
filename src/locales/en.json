@@ -61,42 +61,42 @@
     "subtitle": "Jump to all eight core Coffee Talk Tokyo guides on this page",
     "cards": [
       {
-        "icon": "CalendarDays",
+        "icon": "BookOpen",
         "title": "Coffee Talk Tokyo Release Date and Platforms",
         "description": "Launch date, store editions, demo availability, and platform comparison."
       },
       {
-        "icon": "Compass",
+        "icon": "Sparkles",
         "title": "Coffee Talk Tokyo Beginner Guide",
         "description": "Core loop, order reading, brewing flow, and first-run essentials."
       },
       {
-        "icon": "CupSoda",
+        "icon": "Hammer",
         "title": "Coffee Talk Tokyo Drink Recipes",
         "description": "Recipe order, temperature routes, and high-use drinks by category."
       },
       {
-        "icon": "Route",
+        "icon": "Package",
         "title": "Coffee Talk Tokyo Walkthrough",
         "description": "Spoiler-light story route with safe drink paths by day blocks."
       },
       {
-        "icon": "Users",
+        "icon": "Home",
         "title": "Coffee Talk Tokyo Characters and Yokai",
         "description": "Main cast roles, route context, and best-end references."
       },
       {
-        "icon": "GitBranch",
+        "icon": "Eye",
         "title": "Coffee Talk Tokyo Endings and Choices Guide",
         "description": "Best-end rules, choice impact, and route completion checkpoints."
       },
       {
-        "icon": "Hash",
+        "icon": "AlertTriangle",
         "title": "Coffee Talk Tokyo Tomodachill Guide",
         "description": "Profiles, hashtags, hidden posts, and clue tracking priorities."
       },
       {
-        "icon": "Trophy",
+        "icon": "ArrowRight",
         "title": "Coffee Talk Tokyo Achievements and Trophies",
         "description": "Category checklist for story, drinks, route scenes, and full completion."
       }
