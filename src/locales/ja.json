@@ -1,10 +1,1135 @@
 {
+  "seo": {
+    "home": {
+      "title": "Coffee Talk Tokyo Wiki - レシピ、エンディング、キャラクター",
+      "description": "Coffee Talk Tokyo Wikiでは、ドリンクのレシピ、エンディング、キャラクター、Tomodachillの投稿、ラテアート、実績、プラットフォーム、デモ、東京のカフェストーリーガイドを提供しています。",
+      "keywords": "Coffee Talk Tokyo、レシピ、エンディング、キャラクター、Tomodachill、ラテアート、実績、デモ",
+      "ogTitle": "Coffee Talk Tokyo Wiki - レシピ、エンディング、キャラクター",
+      "ogDescription": "Coffee Talk Tokyo Wikiでは、ドリンクのレシピ、エンディング、キャラクター、Tomodachillの投稿、ラテアート、実績、プラットフォーム、デモ、東京のカフェストーリーガイドを提供しています。",
+      "twitterTitle": "Coffee Talk Tokyo Wiki - レシピ、エンディング、キャラクター",
+      "twitterDescription": "Coffee Talk Tokyo Wikiでは、レシピ、エンディング、キャラクター、Tomodachillの手がかり、実績ルートを網羅しています。"
+    }
+  },
   "nav": {
-    "release": "Release",
-    "platforms": "Platforms",
-    "demo": "Demo",
-    "guide": "Guide",
-    "recipes": "Recipes",
-    "characters": "Characters"
+    "release": "リリース",
+    "platforms": "プラットフォーム",
+    "demo": "デモ",
+    "guide": "ガイド",
+    "recipes": "レシピ",
+    "characters": "キャラクター"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "その他",
+    "playNow": "Steamでプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定"
+  },
+  "hero": {
+    "badge": "居心地の良い物語カフェシミュレーター",
+    "title": "Coffee Talk Tokyo Wiki",
+    "description": "Coffee Talk Tokyoは、深夜の東京のカフェを舞台にした居心地の良いビジュアルノベルです。温かい飲み物や冷たい飲み物を淹れ、人間や妖怪に出会い、Tomodachillの手がかりを追い、キャラクターのエンディングをアンロックしましょう。",
+    "getFreeCodesCTA": "公式サイトにアクセス",
+    "playOnSteamCTA": "SteamでCoffee Talk Tokyoをプレイ",
+    "stats": {
+      "stat1": {
+        "value": "2026年5月21日",
+        "label": "発売日"
+      },
+      "stat2": {
+        "value": "11",
+        "label": "キャラクター"
+      },
+      "stat3": {
+        "value": "44",
+        "label": "Steam実績"
+      },
+      "stat4": {
+        "value": "92%好評",
+        "label": "Steamレビュー"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Coffee Talk Tokyoゲームプレイ",
+    "description": "深夜の東京のカフェで、飲み物を混ぜ、キャラクターのアークを追い、Tomodachillの手がかりを読み、複数のエンディングを形作りましょう。"
+  },
+  "tools": {
+    "title": "Coffee Talk Tokyo",
+    "titleHighlight": "ホームページモジュール",
+    "subtitle": "このページにある8つの主要なCoffee Talk Tokyoガイドすべてにジャンプ",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Coffee Talk Tokyoの発売日とプラットフォーム",
+        "description": "発売日、ストアエディション、デモの利用可能性、プラットフォームの比較。"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Coffee Talk Tokyo初心者ガイド",
+        "description": "コアなループ、注文の読み方、抽出の流れ、初回プレイの必需品。"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Coffee Talk Tokyoドリンクレシピ",
+        "description": "レシピの順序、温度ルート、カテゴリ別の高頻度使用ドリンク。"
+      },
+      {
+        "icon": "Package",
+        "title": "Coffee Talk Tokyoウォークスルー",
+        "description": "ネタバレを抑えたストーリールートと、日ごとの安全なドリンクパス。"
+      },
+      {
+        "icon": "Home",
+        "title": "Coffee Talk Tokyoのキャラクターと妖怪",
+        "description": "主要キャストの役割、ルートの背景、ベストエンディングの参照。"
+      },
+      {
+        "icon": "Eye",
+        "title": "Coffee Talk Tokyoのエンディングと選択肢ガイド",
+        "description": "ベストエンディングのルール、選択肢の影響、ルート完了のチェックポイント。"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Coffee Talk Tokyo Tomodachillガイド",
+        "description": "プロフィール、ハッシュタグ、隠された投稿、手がかり追跡の優先順位。"
+      },
+      {
+        "icon": "ArrowRight",
+        "title": "Coffee Talk Tokyoの実績とトロフィー",
+        "description": "ストーリー、ドリンク、ルートシーン、完全クリアのカテゴリ別チェックリスト。"
+      }
+    ]
+  },
+  "modules": {
+    "coffeeTalkTokyoReleaseDatePlatforms": {
+      "title": "Coffee Talk Tokyoの発売日とプラットフォーム",
+      "intro": "Coffee Talk Tokyoは、Coffee Talkシリーズの最新作で、現代の東京を舞台に、人間と妖怪が丁寧に淹れた飲み物を飲みながら物語を共有する深夜のカフェが舞台です。公式パブリッシャーページとライブストアのリストによると、2026年5月21日に発売され、標準版、対応ストアでのデモアクセス、およびいくつかのプラットフォームでデラックスアップグレードコンテンツが利用可能です。",
+      "items": [
+        {
+          "platform": "Steam",
+          "system": "Steam経由のPC",
+          "release_date": "2026年5月21日",
+          "status": "リリース済み",
+          "demo": "ダウンロード可能なSteamデモが利用可能",
+          "editions": "標準ゲーム、デラックスエディション、デラックスエディションアップグレードDLC"
+        },
+        {
+          "platform": "Nintendo Switch",
+          "system": "Nintendo Switch; Nintendo Switch 2でサポート",
+          "release_date": "2026年5月21日",
+          "status": "デジタルリリース",
+          "demo": "地域ごとのデモの提供状況については、ニンテンドーeショップのページをご確認ください。",
+          "editions": "デラックスエディションアップグレードDLC付きのベースゲーム"
+        },
+        {
+          "platform": "PlayStation",
+          "system": "PS5",
+          "release_date": "2026年5月21日",
+          "status": "リリース済み",
+          "demo": "PlayStation Storeで無料デモが利用可能",
+          "editions": "スタンダードエディション; シアトルプロローグチャプター、追加のゲーム内シティポップトラック10曲、デジタルアートブック付きデラックスエディション; デラックスエディションアップグレードアドオン"
+        },
+        {
+          "platform": "Xbox",
+          "system": "Xbox One、Xbox Series X|S、PC、および携帯互換のXboxエコシステムデバイス",
+          "release_date": "2026年5月21日",
+          "status": "リリース済み",
+          "demo": "地域ごとのデモの提供状況については、Xboxストアのページをご確認ください。",
+          "editions": "スタンダードエディション; デラックスエディション; デラックスエディションアップグレードアドオン"
+        },
+        {
+          "platform": "公式パブリッシャーページ",
+          "system": "ストアリンク付きの公式ハブ",
+          "release_date": "2026年5月21日",
+          "status": "公式リリースページ公開中",
+          "demo": "ストア固有",
+          "editions": "ストア固有"
+        }
+      ]
+    },
+    "coffeeTalkTokyoBeginnerGuide": {
+      "title": "Coffee Talk Tokyo 初心者ガイド",
+      "intro": "あなたは東京のカフェのバリスタとして、人間と妖怪が飲み物、音楽、そして心からの会話を求めて訪れる場所で働きます。ほとんどの進捗は、注意深く耳を傾け、適切な温度と材料を選び、BrewpadやTomodachillのようなサイドツールを使ってレシピや顧客の物語を理解することから生まれます。",
+      "steps": [
+        {
+          "title": "まず顧客の要望を確認する",
+          "action": "「ホット」、「コールド」、「コーヒー」、「ティー」、「ゆず」、「ハニー」、「ミルク」、「ミント」、「マンゴー」、「ライチ」、「アイスクリーム」、「ホイップクリーム」などの明確な言葉を探します。",
+          "why_it_matters": "注文はしばしば自然な会話のように書かれているため、手がかりは通常、顧客の気分や言葉遣いの中に隠されています。"
+        },
+        {
+          "title": "材料の前にホットかコールドを選ぶ",
+          "action": "まず飲み物の温度を選び、次にベースとなる材料を選びます。",
+          "why_it_matters": "Coffee Talk Tokyoのレシピは温度から始まり、一部のストーリーオーダーはホットまたはコールドで提供された場合にのみ機能します。"
+        },
+        {
+          "title": "すべての飲み物を3つの材料スロットで作成する",
+          "action": "ベースを選び、次に主要な材料、次に副次的な材料を選びます。",
+          "why_it_matters": "主要な材料は副次的な材料よりも影響が大きいため、同じ材料でも順序が異なると異なる結果になることがあります。"
+        },
+        {
+          "title": "主要なベースを学ぶ",
+          "action": "コーヒー、ティー、グリーンティー、ほうじ茶、チョコレート、豆乳をコアレシピファミリーとして使用します。",
+          "why_it_matters": "ほとんどのレシピは、最初に正しいベースファミリーを特定すると解決しやすくなります。"
+        },
+        {
+          "title": "風味の手がかりを使ってレシピを完成させる",
+          "action": "顧客が味、フルーツ、スパイス、甘さ、泡、またはフロートについて言及した場合は、ゆず、ジンジャー、ハニー、ミント、マンゴー、ライチ、ホイップクリーム、アイスクリームなどの材料を追加します。",
+          "why_it_matters": "ストーリーオーダーでは、最終的な飲み物の名前を挙げる代わりに、味を説明することがよくあります。"
+        },
+        {
+          "title": "リクエストに応じてラテアートやステンシルを追加する",
+          "action": "顧客が「かわいい」、「きれい」、「飾られた」、「視覚的に特別なもの」を求めた場合は、ステンシルとラテアートのツールを使用します。",
+          "why_it_matters": "Coffee Talk Tokyoでは、ステンシルラテアートが目に見えるドリンクカスタマイズ機能として追加されています。"
+        },
+        {
+          "title": "BrewpadとTomodachillを確認する",
+          "action": "Brewpadを使って発見した特別な飲み物を確認し、Tomodachillを使って顧客のプロフィール、ストーリーのヒント、ソーシャルアップデートをフォローします。",
+          "why_it_matters": "ゲームはメインの会話以外にもレシピやキャラクターの手がかりを提供するため、サイドアプリを確認することで見落としを防ぐことができます。"
+        },
+        {
+          "title": "提供する前に間違いを修正する",
+          "action": "淹れていない飲み物をリセットしたり、間違った飲み物を提供する前に捨てたり、よりきれいなルートを望む場合はセーブデータをリロードしたりできます。",
+          "why_it_matters": "ストーリーの反応になる前に、悪い淹れ方を修正することができます。"
+        }
+      ]
+    },
+    "coffeeTalkTokyoDrinkRecipes": {
+      "title": "Coffee Talk Tokyo ドリンクレシピ",
+      "intro": "Coffee Talk Tokyoのレシピは、ホットまたはコールドから始まり、次にベースとなる材料、次に強い主要な材料、次に軽い副次的な材料が続きます。フルゲームには、コーヒー、ティー、グリーンティー/抹茶、ほうじ茶、チョコレート、豆乳のファミリーにわたる54種類の特別なBrewpadレシピが含まれています。以下の行は、ホームページでよく使われるストーリードリンクと簡単なレシピアンカーに焦点を当てています。",
+      "items": [
+        {
+          "category": "コーヒー",
+          "drink": "エスプレッソ",
+          "temperature": "ホット",
+          "base": "コーヒー",
+          "primary": "コーヒー",
+          "secondary": "コーヒー",
+          "story_use": "シンプルなブラックコーヒーの注文で、信頼できる苦いコーヒーの答えです。"
+        },
+        {
+          "category": "コーヒー",
+          "drink": "ビー・ン・バジー",
+          "temperature": "ホット",
+          "base": "コーヒー",
+          "primary": "ハニー",
+          "secondary": "豆乳",
+          "story_use": "ラテアートのリクエストによく合う甘いコーヒーです。"
+        },
+        {
+          "category": "コーヒー",
+          "drink": "コーヒーフロート",
+          "temperature": "コールド",
+          "base": "コーヒー",
+          "primary": "コーヒー",
+          "secondary": "アイスクリーム",
+          "story_use": "顧客がアイスコーヒーにアイスクリームを求めた場合に便利です。"
+        },
+        {
+          "category": "コーヒー",
+          "drink": "ジャヘ・トゥブルク",
+          "temperature": "ホット",
+          "base": "コーヒー",
+          "primary": "コーヒー",
+          "secondary": "ジンジャー",
+          "story_use": "ジンジャー入りの濃厚なインドネシア風コーヒー。"
+        },
+        {
+          "category": "紅茶",
+          "drink": "ロイヤルミルクティー",
+          "temperature": "ホット",
+          "base": "紅茶",
+          "primary": "豆乳",
+          "secondary": "豆乳",
+          "story_use": "初期の紅茶注文の基本的なミルクティーアンカー。"
+        },
+        {
+          "category": "紅茶",
+          "drink": "ホットゆず蜜",
+          "temperature": "ホット",
+          "base": "紅茶",
+          "primary": "ゆず",
+          "secondary": "はちみつ",
+          "story_use": "ゆずとはちみつの紅茶の注文に直接応えるもの。"
+        },
+        {
+          "category": "紅茶",
+          "drink": "ゆずハニークーラー",
+          "temperature": "コールド",
+          "base": "紅茶",
+          "primary": "ゆず",
+          "secondary": "はちみつ",
+          "story_use": "アイスゆずハニーティーの注文用の冷たいバージョン。"
+        },
+        {
+          "category": "紅茶",
+          "drink": "トロピカルティー",
+          "temperature": "コールド",
+          "base": "紅茶",
+          "primary": "マンゴー",
+          "secondary": "ライチ",
+          "story_use": "たくさんのフルーツを求める注文のための、フルーツたっぷりの紅茶オプション。"
+        },
+        {
+          "category": "緑茶 / 抹茶",
+          "drink": "抹茶",
+          "temperature": "ホット",
+          "base": "緑茶",
+          "primary": "緑茶",
+          "secondary": "緑茶",
+          "story_use": "伝統的な抹茶の注文に対するすっきりとした答え。"
+        },
+        {
+          "category": "緑茶 / 抹茶",
+          "drink": "冷やし抹茶",
+          "temperature": "コールド",
+          "base": "緑茶",
+          "primary": "緑茶",
+          "secondary": "緑茶",
+          "story_use": "アイス抹茶の注文用の冷たい抹茶。"
+        },
+        {
+          "category": "緑茶 / 抹茶",
+          "drink": "抹茶マンゴーラテ",
+          "temperature": "コールド",
+          "base": "緑茶",
+          "primary": "豆乳",
+          "secondary": "マンゴー",
+          "story_use": "マコトのための初期ルートのドリンク。"
+        },
+        {
+          "category": "緑茶 / 抹茶",
+          "drink": "スノーフォレスト",
+          "temperature": "コールド",
+          "base": "緑茶",
+          "primary": "ライチ",
+          "secondary": "アイスクリーム",
+          "story_use": "雪の中の森の手がかりのためのレイトルートドリンク。"
+        },
+        {
+          "category": "ほうじ茶",
+          "drink": "ほうじ茶",
+          "temperature": "ホット",
+          "base": "ほうじ茶",
+          "primary": "ほうじ茶",
+          "secondary": "ほうじ茶",
+          "story_use": "温かいほうじ茶の注文に対する、プレーンな焙煎茶の答え。"
+        },
+        {
+          "category": "ほうじ茶",
+          "drink": "アイスほうじ茶",
+          "temperature": "コールド",
+          "base": "ほうじ茶",
+          "primary": "ほうじ茶",
+          "secondary": "ほうじ茶",
+          "story_use": "ユキのいつものアイスほうじ茶に対する、繰り返し使える安全な答え。"
+        },
+        {
+          "category": "ほうじ茶",
+          "drink": "チャヒート",
+          "temperature": "冷たい",
+          "base": "ほうじ茶",
+          "primary": "ゆず",
+          "secondary": "ミント",
+          "story_use": "ピリッとしたミントのヒントに合う、モヒートのようなお茶の飲み物。"
+        },
+        {
+          "category": "ほうじ茶",
+          "drink": "マンゴーメルバ",
+          "temperature": "冷たい",
+          "base": "ほうじ茶",
+          "primary": "マンゴー",
+          "secondary": "アイスクリーム",
+          "story_use": "ユキとフクにまつわる、物語の後半のお気に入り。"
+        },
+        {
+          "category": "チョコレート",
+          "drink": "チョコビーソイ",
+          "temperature": "温かい",
+          "base": "チョコレート",
+          "primary": "はちみつ",
+          "secondary": "豆乳",
+          "story_use": "はちみつとミルク風のリクエストに合うホットチョコレートの選択肢。"
+        },
+        {
+          "category": "チョコレート",
+          "drink": "ミントショック",
+          "temperature": "冷たい",
+          "base": "チョコレート",
+          "primary": "ミント",
+          "secondary": "ミント",
+          "story_use": "ダブルミントのヒントに合う、冷たいチョコミントドリンク。"
+        },
+        {
+          "category": "チョコレート",
+          "drink": "チャイスドココア",
+          "temperature": "冷たい",
+          "base": "チョコレート",
+          "primary": "ジンジャー",
+          "secondary": "アイスクリーム",
+          "story_use": "より豊かな後味の、スパイシーな冷たいチョコレートの答え。"
+        },
+        {
+          "category": "豆乳",
+          "drink": "ピンクスキッフ",
+          "temperature": "冷たい",
+          "base": "豆乳",
+          "primary": "ライチ",
+          "secondary": "アイスクリーム",
+          "story_use": "エリカのライチの注文に合う豆乳フロートの選択肢。"
+        },
+        {
+          "category": "豆乳",
+          "drink": "ナイティナイト",
+          "temperature": "温かい",
+          "base": "豆乳",
+          "primary": "マンゴー",
+          "secondary": "はちみつ",
+          "story_use": "安らかな就寝時のヒントに合う、温かくフルーティーで甘い飲み物。"
+        },
+        {
+          "category": "豆乳",
+          "drink": "STMJ",
+          "temperature": "温かい",
+          "base": "豆乳",
+          "primary": "ジンジャー",
+          "secondary": "はちみつ",
+          "story_use": "スパイシーで甘い注文に合う、温かい豆乳、ジンジャー、はちみつの飲み物。"
+        }
+      ]
+    },
+    "coffeeTalkTokyoWalkthrough": {
+      "title": "Coffee Talk Tokyo ウォークスルー",
+      "intro": "Coffee Talk Tokyoは、正しい飲み物を提供することで顧客の満足度を高め、ベストエンドへの進行を維持するカフェの日々が続きます。このホームページのウォークスループレビューでは、飲み物の結果、重要なメカニクス、ルートのマイルストーンに焦点を当て、完全なストーリーの詳細は専用のウォークスルーページに記載しています。",
+      "steps": [
+        {
+          "days": "1日目",
+          "route_focus": "チュートリアル、温かい飲み物、最初のステンシルリクエスト",
+          "recommended_drinks": [
+            "ヘンドリーにほうじ茶",
+            "ジュンにチョコビーソイ",
+            "フクにエスプレッソ",
+            "アヤメにラテアートとステンシル付きのビー・ン・バジー"
+          ],
+          "milestone": "基本的な抽出ループ、最初の飲み物、ラテアート/ステンシルの実績を紹介します。"
+        },
+        {
+          "days": "2～3日目",
+          "route_focus": "冷たい飲み物、トッピング、最初のより大きな顧客セット",
+          "recommended_drinks": [
+            "アッシュにロイヤルミルクティー",
+            "ケンジにコーヒーフロート",
+            "マコトに抹茶マンゴーラテ",
+            "Vinのためのヴィニーズコーヒー",
+            "エミのためのジャヘ・トゥブルック",
+            "ユキのためのアイスほうじ茶",
+            "エリカのためのピンクスキッフ"
+          ],
+          "milestone": "冷たい飲み物のルーティングを解除し、アイスクリームやホイップクリームのような注文を導入します。"
+        },
+        {
+          "days": "4-6日目",
+          "route_focus": "ゆず茶、ほうじ茶ルート、カフェインチェック",
+          "recommended_drinks": [
+            "ジュンのクイックオーダーのための冷たい飲み物",
+            "Kenjiのためのアイスオレ",
+            "Blueのためのホットゆずみつ",
+            "エミのための冷やし飴",
+            "フクのためのチャヒート",
+            "Blueのためのゆずハニークーラー",
+            "エリカのためのピンクスキッフとアイスほうじ茶"
+          ],
+          "milestone": "初期のゆず、ほうじ茶、カフェインの手がかりパターンをカバーします。"
+        },
+        {
+          "days": "7-10日目",
+          "route_focus": "マンゴー、抹茶、甘いスパイスの手がかり、そしてより強い即興",
+          "recommended_drinks": [
+            "ジュンのためのマンゴーオレ",
+            "Kenjiのための冷やし抹茶",
+            "Ayameのための抹茶",
+            "ユキのためのアイスほうじ茶",
+            "エリカのためのトロピカルティー",
+            "マコトのためのミントショック",
+            "Kenjiのためのアフォガート",
+            "ヘンドリーのためのサンセット富士"
+          ],
+          "milestone": "シンプルな名前のレシピから、フレーバーベースの手がかり解決へとルートを移行します。"
+        },
+        {
+          "days": "11-13日目",
+          "route_focus": "フルーツたっぷりの注文、リピートのお気に入り、キャラクター固有の好み",
+          "recommended_drinks": [
+            "フクのためのチャイココア",
+            "エミのためのトロピカルティー",
+            "マコトのためのマコトパフェ",
+            "Kenjiのためのアイスゆず茶",
+            "アッシュのためのカフェラテ",
+            "ジュンのためのライチキリティー",
+            "ユキのためのマンゴーメルバ",
+            "エミのためのレ・ド・マント",
+            "Vinのためのミントチップラテ"
+          ],
+          "milestone": "リピートのお気に入りと、以前の顧客パターンを覚えることの重要性を強調します。"
+        },
+        {
+          "days": "14-15日目",
+          "route_focus": "最終ルートチェックとベストエンディング設定",
+          "recommended_drinks": [
+            "Blueのためのホットゆずみつ",
+            "ジュンのためのプレーンティー",
+            "マコトのためのエスプレッソ",
+            "Blueのためのジャヘ・トゥブルック",
+            "VinのためのSTMJ",
+            "Vinのためのスノーフォレスト",
+            "アキコのためのゆず茶",
+            "ユキとフクのためのマンゴーメルバ"
+          ],
+          "milestone": "メインのカフェルートを終了し、物語の結末のキャラクター結果シーケンスを準備します。"
+        }
+      ]
+    },
+    "coffeeTalkTokyoCharactersAndYokai": {
+      "title": "Coffee Talk Tokyoのキャラクターと妖怪",
+      "intro": "このキャラクターガイドを、新しい顧客、主要なルート名、Coffee Talk Tokyoのベストエンディングとソーシャル投稿に関連する物語の役割への迅速な入り口として使用してください。",
+      "items": [
+        {
+          "name": "Kenji",
+          "role": "引退したカッパのサラリーマン",
+          "type": "妖怪",
+          "story_focus": "Kenjiは引退後、意味と前進する方法を探しています。",
+          "route_note": "彼のベストエンドの功績は「Punching Out, Going Home」です。"
+        },
+        {
+          "name": "Vin",
+          "role": "バリスタのアシスタント",
+          "type": "カフェスタッフ",
+          "story_focus": "Vinは、過去の断片と以前の災害の日常的な結果に対処しています。",
+          "route_note": "彼のベストエンドの功績は「With A Little Help From My Friends」です。"
+        },
+        {
+          "name": "Ayame",
+          "role": "最近亡くなったイットガール",
+          "type": "死後の世界のキャラクター",
+          "story_focus": "Ayameは、明るく遊び心のあるエネルギーを保ちながら、新しい死後の世界を理解しようとしています。",
+          "route_note": "彼女のベストエンドの功績は「Last Hurrah in Ghost Town」です。"
+        },
+        {
+          "name": "アッシュ",
+          "role": "メインストーリーの顧客",
+          "type": "東京キャスト",
+          "story_focus": "アッシュは、ゲームのベストエンディング実績セットに結びついた名前付きルートの1つです。",
+          "route_note": "アッシュのベストエンドの功績は「A New Page」です。"
+        },
+        {
+          "name": "Blue",
+          "role": "メインストーリーの顧客",
+          "type": "東京キャスト",
+          "story_focus": "BlueはVinとBlue Nightsのクレジットシーンに関連するルートシーンに結びついています。",
+          "route_note": "Blueのベストエンド実績は「Foot in the Door」です。"
+        },
+        {
+          "name": "Jun",
+          "role": "メインストーリーの顧客",
+          "type": "ファンタジーキャラクター",
+          "story_focus": "Junのルートは、インスピレーション、変身、そしてドラゴン関連の実績につながっています。",
+          "route_note": "Junのベストエンド実績は「Inspiration From the Source」です。"
+        },
+        {
+          "name": "Makoto",
+          "role": "メインストーリーの顧客",
+          "type": "東京キャスト",
+          "story_focus": "Makotoはルートセットに登場し、変化と自己再生に関連しています。",
+          "route_note": "Makotoのベストエンド実績は「New Me Activated」です。"
+        },
+        {
+          "name": "Emi",
+          "role": "メインストーリーの顧客",
+          "type": "東京キャスト",
+          "story_focus": "Emiは主要な顧客グループの一員であり、エンディングシーケンスでルートの結論を迎えます。",
+          "route_note": "Emiのベストエンド実績は「Out Of Office」です。"
+        },
+        {
+          "name": "Erika",
+          "role": "メインストーリーの顧客",
+          "type": "東京キャスト",
+          "story_focus": "Erikaのルートは、クレジットベースのベストエンディング実績セットに登場します。",
+          "route_note": "Erikaのベストエンド実績は「Peer Review: Approved」です。"
+        },
+        {
+          "name": "Fuku",
+          "role": "メインストーリーの顧客",
+          "type": "東京キャスト",
+          "story_focus": "Fukuは物語の早い段階で登場し、専用のベストエンドルートを持っています。",
+          "route_note": "Fukuのベストエンド実績は「Desk Jockey No More」です。"
+        },
+        {
+          "name": "Yuki",
+          "role": "メインストーリーの顧客",
+          "type": "東京キャスト",
+          "story_focus": "Yukiは、エンディングのスナップショットまで追跡される主要なキャラクタールートの1つです。",
+          "route_note": "Yukiのベストエンド実績は「Goodbye Hiromi」です。"
+        },
+        {
+          "name": "Akiko",
+          "role": "物語のつながりのキャラクター",
+          "type": "東京キャスト",
+          "story_focus": "AkikoはAyameのルートと、クレジット後のバイオリンシーンに関連しています。",
+          "route_note": "関連する実績には「Messenger Between Worlds」と「The world's warmest violin」があります。"
+        }
+      ]
+    },
+    "coffeeTalkTokyoEndingsAndChoicesGuide": {
+      "title": "Coffee Talk Tokyo エンディングと選択肢ガイド",
+      "intro": "このセクションでは、ホームページを完全な攻略ガイドにすることなく、ベストエンディングを目指す方法をプレイヤーに明確に示します。",
+      "items": [
+        {
+          "heading": "エンディングの仕組み",
+          "summary": "適切な飲み物を提供し、会話に注意を払い、キャラクターの更新を追跡し、15日後にクレジットを流してエンディングのスナップショットを確認します。",
+          "details": [
+            "会話の選択肢はキャラクターの結果に影響を与えます。",
+            "正しい飲み物は、ベストドリンクルートと「Voted Barista of the Year」の実績にとって重要です。",
+            "Tomodachillのヒントは、隠された物語の背景やより良いルート結果をプレイヤーに示唆する可能性があります。",
+            "ルート条件が満たされると、クレジットシーケンス中にベストエンドの実績がアンロックされます。"
+          ]
+        },
+        {
+          "heading": "ドリンク注文のルール",
+          "summary": "Coffee Talk Tokyoのドリンクレシピは、温度、ベース、主要な材料、二次的な材料、そして時にはラテアートやステンシルの使用に依存します。",
+          "details": [
+            "主要な材料は二次的な材料よりも強いため、材料の順序が重要です。",
+            "いくつかのベストドリンクは特別なレシピですが、受け入れられる注文の中にはメニューにないドリンクもあります。",
+            "冷たい飲み物、ホイップクリーム、アイスクリーム、ラテアート、ステンシルはすべて、初期の実績目標に関連しています。"
+          ]
+        },
+        {
+          "heading": "ベストエンドルートリスト",
+          "summary": "主要なベストエンディングセットには、Ash、Ayame、Blue、Emi、Erika、Fuku、Jun、Kenji、Makoto、Vin、Yukiが含まれます。",
+          "details": [
+            "A New Page: Ashのベストエンドをアンロックします。",
+            "Last Hurrah in Ghost Town: Ayameのベストエンドをアンロックします。",
+            "Foot in the Door: Blueのベストエンドをアンロックします。",
+            "Out Of Office: Emiのベストエンドをアンロックします。",
+            "Peer Review: Approved: Erikaのベストエンドをアンロックします。",
+            "Desk Jockey No More: Fukuのベストエンドをアンロックします。",
+            "Inspiration From the Source: Junのベストエンドをアンロックします。",
+            "Punching Out, Going Home: Kenjiのベストエンドをアンロックします。",
+            "New Me Activated: Makotoのベストエンドをアンロックします。",
+            "With A Little Help From My Friends: Vinのベストエンドをアンロックします。",
+            "Goodbye Hiromi: Yukiのベストエンドをアンロックします。"
+          ]
+        },
+        {
+          "heading": "完全なベストエンディング達成",
+          "summary": "すべてのベストエンドでゲームをクリアすると、完全なルート達成目標につながります。",
+          "details": [
+            "「Seeing the Best in Yokai」は、すべてのベストエンドでゲームをクリアした実績です。",
+            "「One Way to Find Out」は、ストーリーモードを一度クリアするとアンロックされます。",
+            "「True Blue Nights」、「Messenger Between Worlds」、「The world's warmest violin」は、コンプリートを目指すプレイヤーが追跡すべきルート関連のシーンです。"
+          ]
+        },
+        {
+          "heading": "ネタバレなしの初回プレイアドバイス",
+          "summary": "すべての顧客のリクエストを注意深く確認し、会話を急がず、先に進む前にTomodachillを確認してください。",
+          "details": [
+            "ドリンク名だけで推測するのではなく、Brewpadとお客様の言葉を合わせて使いましょう。",
+            "新しい投稿やハッシュタグが表示されたらTomodachillを開きましょう。",
+            "キャラクターのスナップショットや実績が不足している場合は、終了後にルートの日をリプレイしましょう。"
+          ]
+        }
+      ]
+    },
+    "coffeeTalkTokyoTomodachillGuide": {
+      "title": "Coffee Talk Tokyo Tomodachill ガイド",
+      "intro": "このガイドは、Tomodachillを明確なプレイヤーチェックリストに変えます。プロフィールを確認し、ハッシュタグをフォローし、隠された投稿を読み、手がかりをルートの進行に結びつけましょう。",
+      "items": [
+        {
+          "name": "キャラクタープロフィール",
+          "type": "ソーシャルプロフィール",
+          "what_it_does": "Tomodachillでは、カフェでの会話シーン以外でもお客様について詳しく知ることができます。",
+          "player_tip": "ストーリーの変更後には、新しいまたは更新されたプロフィールを開いて、ルートのコンテキストを見逃さないようにしましょう。"
+        },
+        {
+          "name": "クリック可能なハッシュタグ",
+          "type": "発見メカニズム",
+          "what_it_does": "ハッシュタグは、現在フォローしていないキャラクターからの隠された投稿につながることがあります。",
+          "player_tip": "関連するハッシュタグが表示されたら、特にルートの決定を下す前にタップしましょう。"
+        },
+        {
+          "name": "隠された投稿",
+          "type": "ストーリーの手がかり",
+          "what_it_does": "隠された投稿は、追加のストーリーレイヤーを明らかにし、キャラクターのルートのパンくずリストのように機能することがあります。",
+          "player_tip": "隠された投稿を使って、後でドリンクを提供する前に、お客様が本当に何を求めているのかを理解しましょう。"
+        },
+        {
+          "name": "ベストエンディングの手がかり",
+          "type": "ルートサポート",
+          "what_it_does": "一部の投稿には、ストーリー展開に影響を与え、ベストエンディングの進行をサポートする手がかりが含まれています。",
+          "player_tip": "ゲーム終盤の日や主要なキャラクターとの会話の後には、Tomodachillを確認しましょう。"
+        },
+        {
+          "name": "シアトルの常連客",
+          "type": "カメオ投稿",
+          "what_it_does": "スペシャルカメオは、シアトルの常連客のTomodachill投稿を見つけることに関連しています。",
+          "player_tip": "ハッシュタグタブを使って、以前のCoffee Talkのストーリーでおなじみの顔に関連する投稿を探しましょう。"
+        },
+        {
+          "name": "ソーシャルメディアフィーバー",
+          "type": "達成目標",
+          "what_it_does": "この実績は、すべてのキャラクターのソーシャルメディアプロフィールがアンロックされたときに解除されます。",
+          "player_tip": "最終日だけでなく、ストーリー全体を通してTomodachillを確認しましょう。"
+        }
+      ]
+    },
+    "coffeeTalkTokyoAchievementsAndTrophies": {
+      "title": "Coffee Talk Tokyo 実績とトロフィー",
+      "intro": "メインストーリーをクリアした後、または見逃したルートシーンをリプレイする際に、このチェックリストを使って完璧な100%クリアを計画しましょう。",
+      "items": [
+        {
+          "category": "ストーリー進行",
+          "name": "東京へようこそ",
+          "goal": "ゲームを開始する",
+          "checked": false
+        },
+        {
+          "category": "ドリンクの基本",
+          "name": "最初の抽出",
+          "goal": "最初のドリンクを淹れる",
+          "checked": false
+        },
+        {
+          "category": "ドリンクの基本",
+          "name": "アイス・アイス・ベイビー",
+          "goal": "初めて冷たいドリンクを淹れる",
+          "checked": false
+        },
+        {
+          "category": "Latte Art",
+          "name": "傑作だ！",
+          "goal": "最初のLatte Artを作成して提供する",
+          "checked": false
+        },
+        {
+          "category": "Latte Art",
+          "name": "全体像",
+          "goal": "ドリンクにステンシルを追加する",
+          "checked": false
+        },
+        {
+          "category": "ドリンクの基本",
+          "name": "甘党",
+          "goal": "アイスクリームまたはホイップクリーム入りのドリンクを提供する",
+          "checked": false
+        },
+        {
+          "category": "間違い",
+          "name": "やり直させて",
+          "goal": "初めてドリンクを捨てる",
+          "checked": false
+        },
+        {
+          "category": "間違い",
+          "name": "これですか？",
+          "goal": "初めて間違ったドリンクを提供する",
+          "checked": false
+        },
+        {
+          "category": "キャラクター",
+          "name": "私たちはみんな友達",
+          "goal": "すべての主要キャラクターに会う",
+          "checked": false
+        },
+        {
+          "category": "間違い",
+          "name": "やめて！",
+          "goal": "合計25杯のドリンクを捨てる",
+          "checked": false
+        },
+        {
+          "category": "音楽",
+          "name": "音楽好き",
+          "goal": "すべての曲を聴く",
+          "checked": false
+        },
+        {
+          "category": "Latte Art",
+          "name": "アートには時間がかかる",
+          "goal": "Latte Artの作成に合計1時間費やす",
+          "checked": false
+        },
+        {
+          "category": "チャレンジモード",
+          "name": "バリスタ研修生",
+          "goal": "チャレンジモードの1セッションで10杯の正しいドリンクを提供する",
+          "checked": false
+        },
+        {
+          "category": "チャレンジモード",
+          "name": "バリスタエキスパート",
+          "goal": "チャレンジモードの1回のセッションで25杯の正しいドリンクを提供する",
+          "checked": false
+        },
+        {
+          "category": "チャレンジモード",
+          "name": "バリスタの達人",
+          "goal": "チャレンジモードの1回のセッションで50杯の正しいドリンクを提供する",
+          "checked": false
+        },
+        {
+          "category": "ストーリーの進行",
+          "name": "確かめる方法が一つ",
+          "goal": "ストーリーモードを一度最後までプレイする",
+          "checked": false
+        },
+        {
+          "category": "Tomodachill",
+          "name": "ソーシャルメディア熱",
+          "goal": "すべてのキャラクターのソーシャルメディアプロフィールをアンロックする",
+          "checked": false
+        },
+        {
+          "category": "ドリンク",
+          "name": "今年のバリスタに選ばれました",
+          "goal": "最高のドリンク注文をすべて提供する",
+          "checked": false
+        },
+        {
+          "category": "ベストエンド",
+          "name": "新しいページ",
+          "goal": "アッシュのベストエンドをアンロックする",
+          "checked": false
+        },
+        {
+          "category": "ベストエンド",
+          "name": "ゴーストタウンでの最後の別れ",
+          "goal": "Ayameのベストエンドをアンロックする",
+          "checked": false
+        },
+        {
+          "category": "ベストエンド",
+          "name": "足がかり",
+          "goal": "ブルーのベストエンドをアンロックする",
+          "checked": false
+        },
+        {
+          "category": "ベストエンド",
+          "name": "オフィス不在",
+          "goal": "エミのベストエンドをアンロックする",
+          "checked": false
+        },
+        {
+          "category": "ベストエンド",
+          "name": "ピアレビュー：承認済み",
+          "goal": "エリカのベストエンドをアンロックする",
+          "checked": false
+        },
+        {
+          "category": "ベストエンド",
+          "name": "もうデスクワークはしない",
+          "goal": "フクのベストエンドをアンロックする",
+          "checked": false
+        },
+        {
+          "category": "ベストエンド",
+          "name": "源からのインスピレーション",
+          "goal": "Junのベストエンドをアンロックする",
+          "checked": false
+        },
+        {
+          "category": "ベストエンド",
+          "name": "退勤、帰宅",
+          "goal": "Kenjiのベストエンドをアンロックする",
+          "checked": false
+        },
+        {
+          "category": "ベストエンド",
+          "name": "新しい私、起動",
+          "goal": "マコトのベストエンドをアンロックする",
+          "checked": false
+        },
+        {
+          "category": "ベストエンド",
+          "name": "友達の助けを借りて",
+          "goal": "Vinのベストエンドをアンロックする",
+          "checked": false
+        },
+        {
+          "category": "ベストエンド",
+          "name": "さようならヒロミ",
+          "goal": "ユキのベストエンドをアンロックする",
+          "checked": false
+        },
+        {
+          "category": "ベストエンド",
+          "name": "妖怪の最高の部分を見る",
+          "goal": "すべてのベストエンドでゲームをクリアする",
+          "checked": false
+        },
+        {
+          "category": "カメオ",
+          "name": "シアトル-東京",
+          "goal": "新しい場所で昔の知り合いに会う",
+          "checked": false
+        },
+        {
+          "category": "カメオ",
+          "name": "父と娘",
+          "goal": "東京でレイチェルに会う",
+          "checked": false
+        },
+        {
+          "category": "ルートシーン",
+          "name": "頭に…心に",
+          "goal": "Kenjiにハイとローを飲ませる",
+          "checked": false
+        },
+        {
+          "category": "ルートシーン",
+          "name": "マドレーヌ・ド・ゴースト",
+          "goal": "Ayameに弁当を出す",
+          "checked": false
+        },
+        {
+          "category": "ルートシーン",
+          "name": "世界間のメッセンジャー",
+          "goal": "Ayameとアキコを話させる",
+          "checked": false
+        },
+        {
+          "category": "Tomodachill",
+          "name": "ゴーストバスターズ",
+          "goal": "バーで3人の女性の自撮りを見る",
+          "checked": false
+        },
+        {
+          "category": "ルートシーン",
+          "name": "夏の恋",
+          "goal": "Vinとブルーが手をつないでいるのを見る",
+          "checked": false
+        },
+        {
+          "category": "ルートシーン",
+          "name": "内なるドラゴン",
+          "goal": "ジュンをドラゴンに変身させる",
+          "checked": false
+        },
+        {
+          "category": "トモダチル",
+          "name": "スペシャルカメオ",
+          "goal": "シアトルの常連客のトモダチル投稿を見つける",
+          "checked": false
+        },
+        {
+          "category": "ポストクレジット",
+          "name": "トゥルーブルーナイツ",
+          "goal": "クレジットでブルーナイツのボーカルを再生させる",
+          "checked": false
+        },
+        {
+          "category": "ポストクレジット",
+          "name": "世界で最も温かいバイオリン",
+          "goal": "アフタークレジットでアキコのバイオリンシーンをトリガーする",
+          "checked": false
+        },
+        {
+          "category": "ドリンク",
+          "name": "マスターブリューワー",
+          "goal": "すべてのスペシャルドリンクをアンロックする",
+          "checked": false
+        },
+        {
+          "category": "ギャラリー",
+          "name": "アートコレクター",
+          "goal": "ギャラリーのすべてのアートワークをアンロックする",
+          "checked": false
+        },
+        {
+          "category": "コンプリート",
+          "name": "プレイしてくれてありがとう",
+          "goal": "すべての実績をアンロックする",
+          "checked": false
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Coffee Talk Tokyo FAQ",
+    "titleHighlight": "質問",
+    "subtitle": "Coffee Talk Tokyoに関するよくある質問への簡単な回答",
+    "questions": [
+      {
+        "question": "Coffee Talk Tokyoはシングルプレイヤーゲームですか？",
+        "answer": "はい。Coffee Talk Tokyoは、対話とドリンクの選択に焦点を当てたシングルプレイヤーの物語体験として設計されています。"
+      },
+      {
+        "question": "Coffee Talk Tokyoのエンディングはどのように変化しますか？",
+        "answer": "エンディングは、対話の選択、正しいドリンク、およびキャラクターの結果に関連する物語後半のルート条件によって形成されます。"
+      },
+      {
+        "question": "Coffee Talk Tokyoはトモダチルの手がかりを使用しますか？",
+        "answer": "はい。トモダチルの投稿とハッシュタグは、ルートの決定とエンディングの設定に役立つ追加のコンテキストを提供します。"
+      },
+      {
+        "question": "Coffee Talk Tokyoはどこでプレイできますか？",
+        "answer": "Coffee Talk Tokyoは、Steam、PlayStation 5、Nintendo Switch、Nintendo Switch 2、およびXboxのストアで利用可能です。"
+      },
+      {
+        "question": "Coffee Talk Tokyoにはいくつの実績がありますか？",
+        "answer": "Coffee Talk Tokyoには、ストーリーの進行、ドリンク、ルート、および完全なコンプリート目標をカバーする44の実績があります。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Coffee Talk Tokyoをもっと楽しむ準備はできましたか？",
+    "description": "公式チャンネルをフォローし、Coffee Talk Tokyoのルート、レシピ、アップデートを追跡し続けてください。",
+    "joinCommunity": "Coffee Talk Discordに参加する",
+    "joinGame": "SteamでCoffee Talk Tokyoをプレイする"
+  },
+  "footer": {
+    "title": "Coffee Talk Tokyo Wiki",
+    "description": "Coffee Talk Tokyoのレシピ、エンディング、キャラクター、トモダチルの手がかり、プラットフォームガイドに関する完全なリソースハブ。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法律",
+    "discord": "公式Discord",
+    "twitter": "公式X",
+    "steamCommunity": "Steamディスカッション",
+    "steamStore": "Steamストア",
+    "about": "について",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Coffee Talk Tokyo Wiki. Chorus Worldwide GamesまたはToge Productionsとは提携していません。",
+    "disclaimer": "非公式のファン作成リソースウェブサイト。"
+  },
+  "pages": {
+    "release": {
+      "title": "Coffee Talk Tokyoリリース",
+      "description": "Coffee Talk Tokyoの発売時期、エディションの詳細、および公式ロールアウトの更新を追跡します。",
+      "metaTitle": "Coffee Talk Tokyoリリース - 日付、エディション、および発売の更新",
+      "metaDescription": "Coffee Talk Tokyoの発売日、エディションの違い、および公式アップデートのタイムラインを含むリリース情報をフォローしてください。",
+      "categoryLabel": "リリース",
+      "whatIs": "Coffee Talk Tokyoのリリース情報とは何ですか？",
+      "whatIsDescription": "このセクションでは、公式の発売時期、エディションのオプション、および発表の変更を収集しているため、Coffee Talk Tokyoがいつ利用可能になり、各ストアバージョンに何が含まれているかをすばやく確認できます。",
+      "why": "このセクションをフォローする理由は何ですか？",
+      "whySteps": {
+        "step1Title": "利用可能性を確認する",
+        "step1Description": "Coffee Talk Tokyoがターゲットのストアフロントと地域でライブになっているかどうかを確認します。",
+        "step2Title": "エディションを比較する",
+        "step2Description": "購入前に、標準、デラックス、およびアップグレードの詳細を確認します。",
+        "step3Title": "スケジュールの変更を把握する",
+        "step3Description": "遅延、発売期間、および発売後のタイムラインの更新を早期に発見します。"
+      },
+      "featured": "特集＆必須",
+      "all": "すべてのリリース記事"
+    },
+    "platforms": {
+      "title": "Coffee Talk Tokyoプラットフォーム",
+      "description": "PC、コンソール、およびストアフロントのバリアントでCoffee Talk Tokyoがどこでプレイできるかを確認します。",
+      "metaTitle": "Coffee Talk Tokyoプラットフォーム - PC、コンソール、およびストアフロントガイド",
+      "metaDescription": "Coffee Talk Tokyoのプラットフォームサポート、ストアフロントの利用可能性、および各システムのバージョン固有のメモを確認します。",
+      "categoryLabel": "プラットフォーム",
+      "whatIs": "Coffee Talk Tokyoのプラットフォームガイドとは何ですか？",
+      "whatIsDescription": "プラットフォームガイドは、Coffee Talk Tokyoのシステム可用性、ストアリスト、バージョンノートを説明し、最適なプレイ場所を選択できるようにします。",
+      "why": "プラットフォームガイドを読む理由",
+      "whySteps": {
+        "step1Title": "システムを選択",
+        "step1Description": "購入前にPCとコンソールの可用性を比較します。",
+        "step2Title": "ストアオプションを確認",
+        "step2Description": "希望するバージョンと価格設定を持つストアフロントを特定します。",
+        "step3Title": "互換性の驚きを避ける",
+        "step3Description": "起動サポートとエコシステムノートを1か所で確認します。"
+      },
+      "featured": "特集＆必須",
+      "all": "すべてのプラットフォーム記事"
+    },
+    "demo": {
+      "title": "Coffee Talk Tokyo デモ",
+      "description": "ルートのヒント、ドリンクの練習、進行ノートでCoffee Talk Tokyoデモの準備をしましょう。",
+      "metaTitle": "Coffee Talk Tokyo デモ - アクセス、長さ、ウォークスルーのヒント",
+      "metaDescription": "アクセス状況、推定プレイ時間、ドリンクルート、ウォークスルーガイダンスを含むCoffee Talk Tokyoデモの情報を入手してください。",
+      "categoryLabel": "デモ",
+      "whatIs": "Coffee Talk Tokyoデモセクションには何が含まれていますか？",
+      "whatIsDescription": "デモセクションでは、Coffee Talk Tokyoのプレリリースおよびトライアルコンテンツに焦点を当て、アクセス状況、プレイ可能な範囲、およびコアシステムをテストする効率的な方法を含みます。",
+      "why": "デモガイドを使用する理由",
+      "whySteps": {
+        "step1Title": "より速く開始",
+        "step1Description": "オープニングフローを学び、デモ時間を無駄にしないようにします。",
+        "step2Title": "主要なドリンクを練習",
+        "step2Description": "完全なプレイの前に、一般的な注文と分岐トリガーを練習します。",
+        "step3Title": "フルゲームの進行を計画",
+        "step3Description": "デモセッションからリリースビルドに役立つルート知識を持ち越します。"
+      },
+      "featured": "特集＆必須",
+      "all": "すべてのデモ記事"
+    },
+    "guide": {
+      "title": "Coffee Talk Tokyo ガイド",
+      "description": "ストーリールート、ペース配分、エンディング設定のための完全なCoffee Talk Tokyoウォークスルー戦略を使用してください。",
+      "metaTitle": "Coffee Talk Tokyo ガイド - ウォークスルー、進行、エンディング",
+      "metaDescription": "ウォークスルーの流れ、ルート計画、効率的なエンディング進行のためのCoffee Talk Tokyoガイドコンテンツを読んでください。",
+      "categoryLabel": "ガイド",
+      "whatIs": "Coffee Talk Tokyoガイドには何が含まれていますか？",
+      "whatIsDescription": "このカテゴリは、初心者向けのオンボーディングからルート計画、シーンシーケンス、エンディング進行戦略まで、Coffee Talk Tokyoの完全なプレイサポートを提供します。",
+      "why": "ガイド記事に従う理由",
+      "whySteps": {
+        "step1Title": "ルートロジックを理解する",
+        "step1Description": "選択とサービスパターンがストーリーの分岐にどのように影響するかを確認します。",
+        "step2Title": "見逃したシーンを減らす",
+        "step2Description": "重要なイベントを順調に進めるために、日ごとのチェックポイントに従います。",
+        "step3Title": "効率的に終了",
+        "step3Description": "構造化された進行計画を使用して、少ない繰り返しでより多くのエンディングをアンロックします。"
+      },
+      "featured": "特集＆必須",
+      "all": "すべてのガイド記事"
+    },
+    "recipes": {
+      "title": "Coffee Talk Tokyo レシピ",
+      "description": "Coffee Talk Tokyoのドリンクレシピ、材料、各顧客のリクエストに対する注文ソリューションをマスターしましょう。",
+      "metaTitle": "Coffee Talk Tokyo レシピ - ドリンクリスト、材料、ソリューション",
+      "metaDescription": "材料の組み合わせ、ドリンクのバリエーション、実用的な注文解決の参考資料を含むCoffee Talk Tokyoのレシピを見つけてください。",
+      "categoryLabel": "レシピ",
+      "whatIs": "Coffee Talk Tokyoのレシピガイドとは何ですか？",
+      "whatIsDescription": "レシピガイドは、Coffee Talk Tokyoのドリンク、材料の組み合わせ、リクエストパターンをカタログ化し、試行錯誤のループなしで適切な飲み物を提供できるようにします。",
+      "why": "レシピの参照を使用する理由",
+      "whySteps": {
+        "step1Title": "正しいドリンクを提供する",
+        "step1Description": "明確な材料の順序で注文を迅速に照合します。",
+        "step2Title": "特別なリクエストを処理する",
+        "step2Description": "温度とバリエーションのリクエストを少ない再試行で解決します。",
+        "step3Title": "より良い結果をサポートする",
+        "step3Description": "正確なドリンクの選択を使用して、ルートの進行とエンディングを維持します。"
+      },
+      "featured": "特集＆必須",
+      "all": "すべてのレシピ記事"
+    },
+    "characters": {
+      "title": "Coffee Talk Tokyo キャラクター",
+      "description": "Coffee Talk Tokyoのキャラクタープロフィール、関係の文脈、ルートに関連するストーリーのヒントを探ります。",
+      "metaTitle": "Coffee Talk Tokyo キャラクター - プロフィール、アーク、ルートの文脈",
+      "metaDescription": "より良いストーリーの決定のために、プロフィール詳細、個人的なアーク、ルートの文脈を含むCoffee Talk Tokyoのキャラクターガイドを閲覧してください。",
+      "categoryLabel": "キャラクター",
+      "whatIs": "Coffee Talk Tokyoのキャラクターカバーには何が含まれていますか？",
+      "whatIsDescription": "キャラクターカバーは、Coffee Talk Tokyoの常連客とサポートキャストを追跡し、プロフィールノート、ストーリーの文脈、ルートの結果に重要なインタラクションの合図を含みます。",
+      "why": "キャラクターガイドを読む理由",
+      "whySteps": {
+        "step1Title": "キャラクターの文脈を学ぶ",
+        "step1Description": "主要なシーンの前に動機と対立点を理解します。",
+        "step2Title": "ストーリーの合図を見つける",
+        "step2Description": "分岐の変化に関連する対話とサービスの合図を認識します。",
+        "step3Title": "ルートの決定を改善する",
+        "step3Description": "重要な章でより明確な選択をするために、プロフィールの知識を使用します。"
+      },
+      "featured": "特集＆必須",
+      "all": "すべてのキャラクター記事"
+    }
   }
 }

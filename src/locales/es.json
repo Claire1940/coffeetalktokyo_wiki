@@ -1,10 +1,1135 @@
 {
+  "seo": {
+    "home": {
+      "title": "Coffee Talk Tokyo Wiki - Recetas, Finales y Personajes",
+      "description": "Coffee Talk Tokyo Wiki para recetas de bebidas, finales, personajes, publicaciones de Tomodachill, latte art, logros, plataformas, demo y guías de la historia del café de Tokio.",
+      "keywords": "Coffee Talk Tokyo, recetas, finales, personajes, Tomodachill, latte art, logros, demo",
+      "ogTitle": "Coffee Talk Tokyo Wiki - Recetas, Finales y Personajes",
+      "ogDescription": "Coffee Talk Tokyo Wiki para recetas de bebidas, finales, personajes, publicaciones de Tomodachill, latte art, logros, plataformas, demo y guías de la historia del café de Tokio.",
+      "twitterTitle": "Coffee Talk Tokyo Wiki - Recetas, Finales y Personajes",
+      "twitterDescription": "Coffee Talk Tokyo Wiki cubre recetas, finales, personajes, pistas de Tomodachill y rutas de logros."
+    }
+  },
   "nav": {
-    "release": "Release",
-    "platforms": "Platforms",
+    "release": "Lanzamiento",
+    "platforms": "Plataformas",
     "demo": "Demo",
-    "guide": "Guide",
-    "recipes": "Recipes",
-    "characters": "Characters"
+    "guide": "Guía",
+    "recipes": "Recetas",
+    "characters": "Personajes"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Simulador de Café Narrativo Acogedor",
+    "title": "Coffee Talk Tokyo Wiki",
+    "description": "Coffee Talk Tokyo es una novela visual acogedora ambientada en un café nocturno de Tokio. Prepara bebidas calientes y heladas, conoce a humanos y yokai, sigue las pistas de Tomodachill y desbloquea los finales de los personajes.",
+    "getFreeCodesCTA": "Visitar sitio web oficial",
+    "playOnSteamCTA": "Jugar Coffee Talk Tokyo en Steam",
+    "stats": {
+      "stat1": {
+        "value": "21 de mayo de 2026",
+        "label": "Fecha de lanzamiento"
+      },
+      "stat2": {
+        "value": "11",
+        "label": "Personajes"
+      },
+      "stat3": {
+        "value": "44",
+        "label": "Logros de Steam"
+      },
+      "stat4": {
+        "value": "92% Positivo",
+        "label": "Reseñas de Steam"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Coffee Talk Tokyo",
+    "description": "Mezcla bebidas, sigue arcos de personajes, lee pistas de Tomodachill y da forma a múltiples finales en un café nocturno de Tokio."
+  },
+  "tools": {
+    "title": "Coffee Talk Tokyo",
+    "titleHighlight": "Módulos de la página de inicio",
+    "subtitle": "Ir a las ocho guías principales de Coffee Talk Tokyo en esta página",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Fecha de lanzamiento y plataformas de Coffee Talk Tokyo",
+        "description": "Fecha de lanzamiento, ediciones de la tienda, disponibilidad de la demo y comparación de plataformas."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Guía para principiantes de Coffee Talk Tokyo",
+        "description": "Bucle principal, lectura de pedidos, flujo de preparación y elementos esenciales para la primera ejecución."
+      },
+      {
+        "icon": "Hammer",
+        "title": "Recetas de bebidas de Coffee Talk Tokyo",
+        "description": "Orden de recetas, rutas de temperatura y bebidas de alto uso por categoría."
+      },
+      {
+        "icon": "Package",
+        "title": "Guía de Coffee Talk Tokyo",
+        "description": "Ruta de la historia con pocos spoilers con caminos de bebidas seguros por bloques de días."
+      },
+      {
+        "icon": "Home",
+        "title": "Personajes y Yokai de Coffee Talk Tokyo",
+        "description": "Roles del elenco principal, contexto de la ruta y referencias de mejor final."
+      },
+      {
+        "icon": "Eye",
+        "title": "Guía de finales y elecciones de Coffee Talk Tokyo",
+        "description": "Reglas de mejor final, impacto de las elecciones y puntos de control de finalización de la ruta."
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Guía de Tomodachill de Coffee Talk Tokyo",
+        "description": "Perfiles, hashtags, publicaciones ocultas y prioridades de seguimiento de pistas."
+      },
+      {
+        "icon": "ArrowRight",
+        "title": "Logros y trofeos de Coffee Talk Tokyo",
+        "description": "Lista de verificación de categorías para la historia, bebidas, escenas de ruta y finalización total."
+      }
+    ]
+  },
+  "modules": {
+    "coffeeTalkTokyoReleaseDatePlatforms": {
+      "title": "Fecha de lanzamiento y plataformas de Coffee Talk Tokyo",
+      "intro": "Coffee Talk Tokyo es la nueva entrega de café nocturno de la serie Coffee Talk, ambientada en el Tokio moderno con humanos y yōkai compartiendo historias con bebidas cuidadosamente preparadas. La página oficial del editor y los listados de tiendas en vivo muestran un lanzamiento el 21 de mayo de 2026, con ediciones estándar, acceso a la demo en tiendas compatibles y contenido de actualización Deluxe disponible en varias plataformas.",
+      "items": [
+        {
+          "platform": "Steam",
+          "system": "PC a través de Steam",
+          "release_date": "21 de mayo de 2026",
+          "status": "Lanzado",
+          "demo": "Demo descargable de Steam disponible",
+          "editions": "Juego estándar, Edición Deluxe, DLC de actualización de Edición Deluxe"
+        },
+        {
+          "platform": "Nintendo Switch",
+          "system": "Nintendo Switch; compatible con Nintendo Switch 2",
+          "release_date": "21 de mayo de 2026",
+          "status": "Lanzamiento digital",
+          "demo": "Consulta la página de Nintendo eShop para ver la disponibilidad de la demo regional",
+          "editions": "Juego base con DLC de actualización a la Edición Deluxe"
+        },
+        {
+          "platform": "PlayStation",
+          "system": "PS5",
+          "release_date": "21 de mayo de 2026",
+          "status": "Lanzado",
+          "demo": "Demo gratuita disponible en PlayStation Store",
+          "editions": "Edición Estándar; Edición Deluxe con el Capítulo Prólogo de Seattle, 10 pistas adicionales de City Pop en el juego y Libro de Arte Digital; complemento de actualización a la Edición Deluxe"
+        },
+        {
+          "platform": "Xbox",
+          "system": "Xbox One, Xbox Series X|S, PC y dispositivos del ecosistema Xbox compatibles con dispositivos portátiles",
+          "release_date": "21 de mayo de 2026",
+          "status": "Lanzado",
+          "demo": "Consulta la página de la tienda Xbox para ver la disponibilidad de la demo regional",
+          "editions": "Edición Estándar; Edición Deluxe; complemento de actualización a la Edición Deluxe"
+        },
+        {
+          "platform": "Página oficial del editor",
+          "system": "Centro oficial con enlaces a tiendas",
+          "release_date": "21 de mayo de 2026",
+          "status": "Página oficial de lanzamiento en vivo",
+          "demo": "Específico de la tienda",
+          "editions": "Específico de la tienda"
+        }
+      ]
+    },
+    "coffeeTalkTokyoBeginnerGuide": {
+      "title": "Guía para principiantes de Coffee Talk Tokyo",
+      "intro": "Juegas como barista en un café de Tokio donde humanos y yōkai visitan para tomar bebidas, escuchar música y tener conversaciones sinceras. La mayor parte del progreso proviene de escuchar atentamente, elegir la temperatura y los ingredientes correctos, y usar herramientas secundarias como Brewpad y Tomodachill para comprender las recetas y las historias de los clientes.",
+      "steps": [
+        {
+          "title": "Lee primero la solicitud del cliente",
+          "action": "Busca palabras claras como caliente, frío, café, té, yuzu, miel, leche, menta, mango, lichi, helado o crema batida.",
+          "why_it_matters": "Los pedidos a menudo se escriben como un diálogo natural, por lo que la pista suele estar oculta en el estado de ánimo o la redacción del cliente."
+        },
+        {
+          "title": "Elige caliente o frío antes de los ingredientes",
+          "action": "Primero elige la temperatura de la bebida, luego elige el ingrediente base.",
+          "why_it_matters": "Las recetas de Coffee Talk Tokyo comienzan con la temperatura, y algunos pedidos de la historia solo funcionan cuando se sirven calientes o fríos."
+        },
+        {
+          "title": "Prepara cada bebida en tres espacios de ingredientes",
+          "action": "Elige una base, luego un ingrediente principal, luego un ingrediente secundario.",
+          "why_it_matters": "El ingrediente principal tiene más influencia que el ingrediente secundario, por lo que los mismos ingredientes en un orden diferente pueden dar un resultado diferente."
+        },
+        {
+          "title": "Aprende las bases principales",
+          "action": "Usa Café, Té, Té Verde, Hojicha, Chocolate y Leche de Soya como tus familias de recetas principales.",
+          "why_it_matters": "La mayoría de las recetas son más fáciles de resolver una vez que identificas la familia base correcta."
+        },
+        {
+          "title": "Usa pistas de sabor para terminar la receta",
+          "action": "Agrega ingredientes como Yuzu, Jengibre, Miel, Menta, Mango, Lichi, Crema Batida o Helado cuando el cliente mencione sabor, fruta, especia, dulzura, espuma o un flotador.",
+          "why_it_matters": "Los pedidos de la historia a menudo describen el sabor en lugar de nombrar la bebida final."
+        },
+        {
+          "title": "Agrega latte art o plantillas cuando se solicite",
+          "action": "Usa herramientas de plantilla y latte art cuando un cliente pida algo lindo, bonito, decorado o visualmente especial.",
+          "why_it_matters": "Coffee Talk Tokyo agrega latte art con plantilla como una característica visible de personalización de bebidas."
+        },
+        {
+          "title": "Consulta Brewpad y Tomodachill",
+          "action": "Usa Brewpad para revisar las bebidas especiales que has descubierto y Tomodachill para seguir los perfiles de los clientes, las pistas de la historia y las actualizaciones sociales.",
+          "why_it_matters": "El juego da pistas de recetas y personajes fuera del diálogo principal, por lo que revisar las aplicaciones secundarias te ayuda a evitar perder contexto."
+        },
+        {
+          "title": "Corrige los errores antes de servir",
+          "action": "Reinicia una bebida sin preparar, desecha una bebida incorrecta antes de servir o recarga una partida guardada si quieres una ruta más limpia.",
+          "why_it_matters": "Puedes corregir una mala preparación antes de que se convierta en una respuesta de la historia."
+        }
+      ]
+    },
+    "coffeeTalkTokyoDrinkRecipes": {
+      "title": "Recetas de bebidas de Coffee Talk Tokyo",
+      "intro": "Las recetas de Coffee Talk Tokyo comienzan con Caliente o Frío, luego un ingrediente base, luego un ingrediente principal más fuerte, luego un ingrediente secundario más ligero. El juego completo incluye 54 recetas especiales de Brewpad en las familias de Café, Té, Té Verde/Matcha, Hojicha, Chocolate y Leche de Soya; las filas a continuación se centran en bebidas de historia de alto uso y anclas de recetas fáciles para la página de inicio.",
+      "items": [
+        {
+          "category": "Café",
+          "drink": "Espresso",
+          "temperature": "Caliente",
+          "base": "Café",
+          "primary": "Café",
+          "secondary": "Café",
+          "story_use": "Un simple pedido de café negro y una respuesta confiable de café amargo."
+        },
+        {
+          "category": "Café",
+          "drink": "Bee’n Buzzy",
+          "temperature": "Caliente",
+          "base": "Café",
+          "primary": "Miel",
+          "secondary": "Leche de Soya",
+          "story_use": "Una opción de café dulce que funciona bien con las solicitudes de latte art."
+        },
+        {
+          "category": "Café",
+          "drink": "Café Flotante",
+          "temperature": "Frío",
+          "base": "Café",
+          "primary": "Café",
+          "secondary": "Helado",
+          "story_use": "Útil cuando un cliente pide café helado con helado."
+        },
+        {
+          "category": "Café",
+          "drink": "Jahe Tubruk",
+          "temperature": "Caliente",
+          "base": "Café",
+          "primary": "Café",
+          "secondary": "Jengibre",
+          "story_use": "Un café fuerte estilo indonesio con jengibre."
+        },
+        {
+          "category": "Té",
+          "drink": "Té con leche real",
+          "temperature": "Caliente",
+          "base": "Té",
+          "primary": "Leche de soya",
+          "secondary": "Leche de soya",
+          "story_use": "Un té con leche básico para los primeros pedidos de té."
+        },
+        {
+          "category": "Té",
+          "drink": "Hotto Yuzu Mitsu",
+          "temperature": "Caliente",
+          "base": "Té",
+          "primary": "Yuzu",
+          "secondary": "Miel",
+          "story_use": "La respuesta directa para pedidos de té de yuzu y miel."
+        },
+        {
+          "category": "Té",
+          "drink": "Yuzu Honey Cooler",
+          "temperature": "Frío",
+          "base": "Té",
+          "primary": "Yuzu",
+          "secondary": "Miel",
+          "story_use": "Versión fría para pedidos de té helado de yuzu y miel."
+        },
+        {
+          "category": "Té",
+          "drink": "Té Tropical",
+          "temperature": "Frío",
+          "base": "Té",
+          "primary": "Mango",
+          "secondary": "Lichi",
+          "story_use": "Una opción de té con mucha fruta para pedidos que piden mucha fruta."
+        },
+        {
+          "category": "Té Verde / Matcha",
+          "drink": "Matcha",
+          "temperature": "Caliente",
+          "base": "Té Verde",
+          "primary": "Té Verde",
+          "secondary": "Té Verde",
+          "story_use": "La respuesta limpia para pedidos de matcha tradicional."
+        },
+        {
+          "category": "Té Verde / Matcha",
+          "drink": "Hiyashi Matcha",
+          "temperature": "Frío",
+          "base": "Té Verde",
+          "primary": "Té Verde",
+          "secondary": "Té Verde",
+          "story_use": "Matcha frío para pedidos de matcha helado."
+        },
+        {
+          "category": "Té Verde / Matcha",
+          "drink": "Matcha Mango Latte",
+          "temperature": "Frío",
+          "base": "Té Verde",
+          "primary": "Leche de soya",
+          "secondary": "Mango",
+          "story_use": "Una bebida de ruta temprana nombrada para Makoto."
+        },
+        {
+          "category": "Té Verde / Matcha",
+          "drink": "Bosque Nevado",
+          "temperature": "Frío",
+          "base": "Té Verde",
+          "primary": "Lichi",
+          "secondary": "Helado",
+          "story_use": "Una bebida de ruta tardía para una pista de bosque nevado."
+        },
+        {
+          "category": "Hojicha",
+          "drink": "Hojicha",
+          "temperature": "Caliente",
+          "base": "Hojicha",
+          "primary": "Hojicha",
+          "secondary": "Hojicha",
+          "story_use": "La respuesta simple de té tostado para pedidos de Hojicha caliente."
+        },
+        {
+          "category": "Hojicha",
+          "drink": "Hojicha Helado",
+          "temperature": "Frío",
+          "base": "Hojicha",
+          "primary": "Hojicha",
+          "secondary": "Hojicha",
+          "story_use": "Una respuesta segura recurrente para el Hojicha helado habitual de Yuki."
+        },
+        {
+          "category": "Hojicha",
+          "drink": "Chajito",
+          "temperature": "Frío",
+          "base": "Hojicha",
+          "primary": "Yuzu",
+          "secondary": "Menta",
+          "story_use": "Una bebida de té tipo mojito para pistas ácidas y mentoladas."
+        },
+        {
+          "category": "Hojicha",
+          "drink": "Mango Melba",
+          "temperature": "Frío",
+          "base": "Hojicha",
+          "primary": "Mango",
+          "secondary": "Helado",
+          "story_use": "Un favorito del final de la historia vinculado a Yuki y Fuku."
+        },
+        {
+          "category": "Chocolate",
+          "drink": "Chocobee Soy",
+          "temperature": "Caliente",
+          "base": "Chocolate",
+          "primary": "Miel",
+          "secondary": "Leche de soja",
+          "story_use": "Una opción de chocolate caliente para pedidos de estilo miel y leche."
+        },
+        {
+          "category": "Chocolate",
+          "drink": "Mint Shock",
+          "temperature": "Frío",
+          "base": "Chocolate",
+          "primary": "Menta",
+          "secondary": "Menta",
+          "story_use": "Una bebida fría de chocolate y menta para pistas de doble menta."
+        },
+        {
+          "category": "Chocolate",
+          "drink": "Chaiced Cocoa",
+          "temperature": "Frío",
+          "base": "Chocolate",
+          "primary": "Jengibre",
+          "secondary": "Helado",
+          "story_use": "Una respuesta de chocolate frío especiado con un acabado más intenso."
+        },
+        {
+          "category": "Leche de soja",
+          "drink": "Pink Skiff",
+          "temperature": "Frío",
+          "base": "Leche de soja",
+          "primary": "Lichi",
+          "secondary": "Helado",
+          "story_use": "Una opción de float de leche de soja para el pedido de lichi de Erika."
+        },
+        {
+          "category": "Leche de soja",
+          "drink": "Nighty Night",
+          "temperature": "Caliente",
+          "base": "Leche de soja",
+          "primary": "Mango",
+          "secondary": "Miel",
+          "story_use": "Una bebida tibia, frutal y dulce para pistas reconfortantes de estilo antes de dormir."
+        },
+        {
+          "category": "Leche de soja",
+          "drink": "STMJ",
+          "temperature": "Caliente",
+          "base": "Leche de soja",
+          "primary": "Jengibre",
+          "secondary": "Miel",
+          "story_use": "Una bebida tibia de leche de soja, jengibre y miel para pedidos dulce-picantes."
+        }
+      ]
+    },
+    "coffeeTalkTokyoWalkthrough": {
+      "title": "Guía de Coffee Talk Tokyo",
+      "intro": "Coffee Talk Tokyo transcurre a través de una secuencia de días en la cafetería donde las bebidas correctas mejoran los resultados de los clientes y mantienen el progreso hacia el mejor final. Este avance de la guía en la página principal se centra en los resultados de las bebidas, mecánicas importantes e hitos de la ruta, mientras reserva los detalles completos de la historia para la página dedicada a la guía.",
+      "steps": [
+        {
+          "days": "Día 1",
+          "route_focus": "Tutorial, bebidas calientes, primera solicitud de plantilla",
+          "recommended_drinks": [
+            "Hojicha para Hendry",
+            "Chocobee Soy para Jun",
+            "Espresso para Fuku",
+            "Bee’n Buzzy con Latte Art y una plantilla para Ayame"
+          ],
+          "milestone": "Introduce el ciclo básico de preparación, la primera bebida y los logros de Latte Art/plantilla."
+        },
+        {
+          "days": "Días 2-3",
+          "route_focus": "Bebidas frías, ingredientes adicionales y el primer grupo grande de clientes",
+          "recommended_drinks": [
+            "Royal Milk Tea para Ash",
+            "Coffee Float para Kenji",
+            "Matcha Mango Latte para Makoto",
+            "Café vienés para Vin",
+            "Jahe Tubruk para Emi",
+            "Hojicha helado para Yuki",
+            "Pink Skiff para Erika"
+          ],
+          "milestone": "Desbloquea el enrutamiento de bebidas frías e introduce pedidos de helado o crema batida."
+        },
+        {
+          "days": "Días 4-6",
+          "route_focus": "Té de yuzu, rutas de hojicha y controles de cafeína",
+          "recommended_drinks": [
+            "Cualquier bebida fría para el pedido rápido de Jun",
+            "Iced au Lait para Kenji",
+            "Hotto Yuzu Mitsu para Blue",
+            "Hiyashi-Ame para Emi",
+            "Chajito para Fuku",
+            "Yuzu Honey Cooler para Blue",
+            "Pink Skiff y Hojicha helado para Erika"
+          ],
+          "milestone": "Cubre el patrón temprano de yuzu, hojicha y pistas de cafeína."
+        },
+        {
+          "days": "Días 7-10",
+          "route_focus": "Mango, matcha, pistas de especias dulces y mayor improvisación",
+          "recommended_drinks": [
+            "Mango au Lait para Jun",
+            "Hiyashi Matcha para Kenji",
+            "Matcha para Ayame",
+            "Hojicha helado para Yuki",
+            "Té tropical para Erika",
+            "Mint Shock para Makoto",
+            "Affogato para Kenji",
+            "Sunset Fuji para Hendry"
+          ],
+          "milestone": "Mueve la ruta de recetas simples con nombre a la resolución de pistas basadas en sabores."
+        },
+        {
+          "days": "Días 11-13",
+          "route_focus": "Pedidos con mucha fruta, favoritos repetidos y preferencias específicas de los personajes",
+          "recommended_drinks": [
+            "Chaiced Cocoa para Fuku",
+            "Té tropical para Emi",
+            "Makoto Parfait para Makoto",
+            "Té de yuzu helado para Kenji",
+            "Caffé Latte para Ash",
+            "Lychee Kiri Te para Jun",
+            "Mango Melba para Yuki",
+            "Lait de Menthe para Emi",
+            "Mint Chip Latte para Vin"
+          ],
+          "milestone": "Destaca los favoritos repetidos y la importancia de recordar los patrones anteriores de los clientes."
+        },
+        {
+          "days": "Días 14-15",
+          "route_focus": "Verificaciones finales de ruta y configuración del mejor final",
+          "recommended_drinks": [
+            "Hotto Yuzu Mitsu para Blue",
+            "Té simple para Jun",
+            "Espresso para Makoto",
+            "Jahe Tubruk para Blue",
+            "STMJ para Vin",
+            "Snow Forest para Vin",
+            "Yuzu Cha para Akiko",
+            "Mango Melba para Yuki y Fuku"
+          ],
+          "milestone": "Termina la ruta principal del café y prepara la secuencia de resultados de los personajes al final de la historia."
+        }
+      ]
+    },
+    "coffeeTalkTokyoCharactersAndYokai": {
+      "title": "Personajes y Yokai de Coffee Talk Tokyo",
+      "intro": "Usa esta guía de personajes como un punto de entrada rápido para los nuevos clientes, los nombres de las rutas principales y los roles de la historia conectados a los mejores finales y publicaciones sociales de Coffee Talk Tokyo.",
+      "items": [
+        {
+          "name": "Kenji",
+          "role": "Kappa asalariado jubilado",
+          "type": "Yokai",
+          "story_focus": "Kenji busca un significado y un camino a seguir después de la jubilación.",
+          "route_note": "Su logro de mejor final es 'Punching Out, Going Home'."
+        },
+        {
+          "name": "Vin",
+          "role": "El asistente del barista",
+          "type": "Personal del café",
+          "story_focus": "Vin está lidiando con un pasado fracturado y las consecuencias diarias de un desastre anterior.",
+          "route_note": "Su logro de mejor final es 'With A Little Help From My Friends'."
+        },
+        {
+          "name": "Ayame",
+          "role": "It girl recientemente fallecida",
+          "type": "Personaje del más allá",
+          "story_focus": "Ayame está tratando de entender su nueva vida después de la muerte mientras mantiene su energía brillante y juguetona.",
+          "route_note": "Su logro de mejor final es 'Last Hurrah in Ghost Town'."
+        },
+        {
+          "name": "Ash",
+          "role": "Cliente de la historia principal",
+          "type": "Elenco de Tokio",
+          "story_focus": "Ash es una de las rutas nombradas vinculadas al conjunto de logros del mejor final del juego.",
+          "route_note": "El logro de mejor final de Ash es 'A New Page'."
+        },
+        {
+          "name": "Blue",
+          "role": "Cliente de la historia principal",
+          "type": "Elenco de Tokyo",
+          "story_focus": "Blue está vinculado a escenas de ruta que involucran a Vin y el momento de los créditos de Blue Nights.",
+          "route_note": "El logro del mejor final de Blue es Foot in the Door."
+        },
+        {
+          "name": "Jun",
+          "role": "Cliente de la historia principal",
+          "type": "Personaje de fantasía",
+          "story_focus": "La ruta de Jun se conecta con la inspiración, la transformación y un logro relacionado con dragones.",
+          "route_note": "El logro del mejor final de Jun es Inspiration From the Source."
+        },
+        {
+          "name": "Makoto",
+          "role": "Cliente de la historia principal",
+          "type": "Elenco de Tokyo",
+          "story_focus": "Makoto aparece en el conjunto de rutas y está conectado con el cambio y la autorrenovación.",
+          "route_note": "El logro del mejor final de Makoto es New Me Activated."
+        },
+        {
+          "name": "Emi",
+          "role": "Cliente de la historia principal",
+          "type": "Elenco de Tokyo",
+          "story_focus": "Emi es parte del grupo principal de clientes y tiene una conclusión de ruta en la secuencia final.",
+          "route_note": "El logro del mejor final de Emi es Out Of Office."
+        },
+        {
+          "name": "Erika",
+          "role": "Cliente de la historia principal",
+          "type": "Elenco de Tokyo",
+          "story_focus": "La ruta de Erika aparece en el conjunto de logros del mejor final basados en los créditos.",
+          "route_note": "El logro del mejor final de Erika es Peer Review: Approved."
+        },
+        {
+          "name": "Fuku",
+          "role": "Cliente de la historia principal",
+          "type": "Elenco de Tokyo",
+          "story_focus": "Fuku aparece temprano en la historia y tiene una ruta dedicada al mejor final.",
+          "route_note": "El logro del mejor final de Fuku es Desk Jockey No More."
+        },
+        {
+          "name": "Yuki",
+          "role": "Cliente de la historia principal",
+          "type": "Elenco de Tokyo",
+          "story_focus": "Yuki es una de las rutas de personajes principales seguidas hasta las capturas del final.",
+          "route_note": "El logro del mejor final de Yuki es Goodbye Hiromi."
+        },
+        {
+          "name": "Akiko",
+          "role": "Personaje de conexión con la historia",
+          "type": "Elenco de Tokyo",
+          "story_focus": "Akiko está conectada con la ruta de Ayame y una escena de violín poscréditos.",
+          "route_note": "Los logros relacionados incluyen Messenger Between Worlds y The world's warmest violin."
+        }
+      ]
+    },
+    "coffeeTalkTokyoEndingsAndChoicesGuide": {
+      "title": "Guía de finales y elecciones de Coffee Talk Tokyo",
+      "intro": "Esta sección ofrece a los jugadores una visión clara de cómo apuntar a los mejores finales sin convertir la página de inicio en una guía completa.",
+      "items": [
+        {
+          "heading": "Cómo funcionan los finales",
+          "summary": "Sirve las bebidas correctas, presta atención al diálogo, sigue las actualizaciones de los personajes y deja que pasen los créditos después del Día 15 para ver las capturas del final.",
+          "details": [
+            "Las elecciones de diálogo influyen en los resultados de los personajes.",
+            "Las bebidas correctas son importantes para la ruta de la mejor bebida y el logro Voted Barista of the Year.",
+            "Las pistas de Tomodachill pueden orientar a los jugadores hacia el contexto oculto de la historia y mejores resultados en las rutas.",
+            "Los logros de Mejor Final se desbloquean durante la secuencia de créditos cuando se han cumplido las condiciones de la ruta."
+          ]
+        },
+        {
+          "heading": "Reglas de pedidos de bebidas",
+          "summary": "Las recetas de bebidas de Coffee Talk Tokyo dependen de la temperatura, la base, el ingrediente principal, el ingrediente secundario y, a veces, el uso de Latte Art o plantillas.",
+          "details": [
+            "El orden de los ingredientes importa porque el ingrediente principal es más fuerte que el secundario.",
+            "Algunas de las mejores bebidas son recetas especiales, mientras que algunos pedidos aceptados son bebidas fuera del menú.",
+            "Las bebidas frías, la crema batida, el helado, el Latte Art y las plantillas están vinculados a objetivos de logros tempranos."
+          ]
+        },
+        {
+          "heading": "Lista de rutas de Mejor Final",
+          "summary": "El conjunto principal de mejores finales cubre a Ash, Ayame, Blue, Emi, Erika, Fuku, Jun, Kenji, Makoto, Vin y Yuki.",
+          "details": [
+            "A New Page: desbloquea el Mejor Final de Ash.",
+            "Last Hurrah in Ghost Town: desbloquea el Mejor Final de Ayame.",
+            "Foot in the Door: desbloquea el Mejor Final de Blue.",
+            "Out Of Office: desbloquea el Mejor Final de Emi.",
+            "Peer Review: Approved: desbloquea el Mejor Final de Erika.",
+            "Desk Jockey No More: desbloquea el Mejor Final de Fuku.",
+            "Inspiration From the Source: desbloquea el Mejor Final de Jun.",
+            "Punching Out, Going Home: desbloquea el Mejor Final de Kenji.",
+            "New Me Activated: desbloquea el Mejor Final de Makoto.",
+            "With A Little Help From My Friends: desbloquea el Mejor Final de Vin.",
+            "Goodbye Hiromi: desbloquea el Mejor Final de Yuki."
+          ]
+        },
+        {
+          "heading": "Completado total de mejores finales",
+          "summary": "Terminar el juego con todos los mejores finales conduce al objetivo de completar todas las rutas.",
+          "details": [
+            "Seeing the Best in Yokai es el logro por terminar el juego con todos los mejores finales.",
+            "One Way to Find Out se desbloquea después de jugar el modo historia hasta el final una vez.",
+            "True Blue Nights, Messenger Between Worlds y The world's warmest violin son escenas relacionadas con las rutas que los completistas deberían seguir."
+          ]
+        },
+        {
+          "heading": "Consejos para una primera partida con pocos spoilers",
+          "summary": "Revisa cuidadosamente cada solicitud de los clientes, evita apresurar el diálogo y revisa Tomodachill antes de avanzar.",
+          "details": [
+            "Usa el Brewpad y la descripción del cliente en conjunto en lugar de adivinar solo por el nombre de la bebida.",
+            "Abre Tomodachill cuando aparezcan nuevas publicaciones o hashtags.",
+            "Vuelve a jugar los días de ruta después de terminar si falta una instantánea de personaje o un logro."
+          ]
+        }
+      ]
+    },
+    "coffeeTalkTokyoTomodachillGuide": {
+      "title": "Guía de Tomodachill de Coffee Talk Tokyo",
+      "intro": "Esta guía convierte Tomodachill en una lista de verificación clara para el jugador: revisa perfiles, sigue hashtags, lee publicaciones ocultas y conecta las pistas con el progreso de la ruta.",
+      "items": [
+        {
+          "name": "Perfiles de personajes",
+          "type": "Perfil social",
+          "what_it_does": "Tomodachill permite a los jugadores aprender más sobre los clientes fuera de las escenas de conversación del café.",
+          "player_tip": "Abre perfiles nuevos o actualizados después de los cambios en la historia para no perderte el contexto de la ruta."
+        },
+        {
+          "name": "Hashtags clicables",
+          "type": "Mecánica de descubrimiento",
+          "what_it_does": "Los hashtags pueden llevar a publicaciones ocultas de personajes que no sigues actualmente.",
+          "player_tip": "Toca los hashtags relacionados cuando aparezcan, especialmente antes de las decisiones de fin de ruta."
+        },
+        {
+          "name": "Publicaciones ocultas",
+          "type": "Pista de la historia",
+          "what_it_does": "Las publicaciones ocultas revelan capas adicionales de la historia y pueden actuar como migas de pan para las rutas de los personajes.",
+          "player_tip": "Usa las publicaciones ocultas para entender lo que un cliente realmente busca antes de servir bebidas más tarde."
+        },
+        {
+          "name": "Pistas para el mejor final",
+          "type": "Apoyo de ruta",
+          "what_it_does": "Algunas publicaciones contienen pistas que pueden influir en cómo se desarrollan las historias y apoyar el progreso hacia el mejor final.",
+          "player_tip": "Revisa Tomodachill antes de los días finales del juego y después de conversaciones importantes con los personajes."
+        },
+        {
+          "name": "Clientes habituales de Seattle",
+          "type": "Publicaciones de cameo",
+          "what_it_does": "El Cameo Especial está ligado a encontrar publicaciones de Tomodachill de los clientes habituales de Seattle.",
+          "player_tip": "Usa la pestaña de hashtags para buscar publicaciones conectadas con caras conocidas de historias anteriores de Coffee Talk."
+        },
+        {
+          "name": "Fiebre de las redes sociales",
+          "type": "Objetivo de finalización",
+          "what_it_does": "Este logro se desbloquea cuando se desbloquean todos los perfiles de redes sociales de los personajes.",
+          "player_tip": "Revisa Tomodachill a lo largo de toda la historia en lugar de guardarlo solo para el último día."
+        }
+      ]
+    },
+    "coffeeTalkTokyoAchievementsAndTrophies": {
+      "title": "Logros y Trofeos de Coffee Talk Tokyo",
+      "intro": "Usa esta lista de verificación para planificar una partida perfecta al 100% después de terminar la historia principal o mientras vuelves a jugar escenas de ruta perdidas.",
+      "items": [
+        {
+          "category": "Progreso de la historia",
+          "name": "Bienvenido a Tokio",
+          "goal": "Inicia el juego",
+          "checked": false
+        },
+        {
+          "category": "Conceptos básicos de bebidas",
+          "name": "Primera preparación",
+          "goal": "Prepara tu primera bebida",
+          "checked": false
+        },
+        {
+          "category": "Conceptos básicos de bebidas",
+          "name": "Ice Ice Baby",
+          "goal": "Prepara una bebida fría por primera vez",
+          "checked": false
+        },
+        {
+          "category": "Latte Art",
+          "name": "¡Es una obra maestra!",
+          "goal": "Crea y sirve tu primer latte art",
+          "checked": false
+        },
+        {
+          "category": "Latte Art",
+          "name": "La imagen completa",
+          "goal": "Añade una plantilla a una bebida",
+          "checked": false
+        },
+        {
+          "category": "Conceptos básicos de bebidas",
+          "name": "Goloso",
+          "goal": "Sirve una bebida con helado o crema batida",
+          "checked": false
+        },
+        {
+          "category": "Errores",
+          "name": "Déjame empezar de nuevo",
+          "goal": "Tira tu bebida por primera vez",
+          "checked": false
+        },
+        {
+          "category": "Errores",
+          "name": "¿Es esto?",
+          "goal": "Sirve la bebida incorrecta por primera vez",
+          "checked": false
+        },
+        {
+          "category": "Personajes",
+          "name": "Todos somos amigos",
+          "goal": "Conoce a todos los personajes principales",
+          "checked": false
+        },
+        {
+          "category": "Errores",
+          "name": "¡Detente!",
+          "goal": "Tira un total de 25 bebidas",
+          "checked": false
+        },
+        {
+          "category": "Música",
+          "name": "Amante de la música",
+          "goal": "Escucha todas las canciones",
+          "checked": false
+        },
+        {
+          "category": "Latte Art",
+          "name": "El arte toma tiempo",
+          "goal": "Pasa un total de 1 hora haciendo Latte Art",
+          "checked": false
+        },
+        {
+          "category": "Modo desafío",
+          "name": "Barista en formación",
+          "goal": "Sirve 10 bebidas correctas en una sola sesión del modo desafío",
+          "checked": false
+        },
+        {
+          "category": "Modo desafío",
+          "name": "Barista experto",
+          "goal": "Sirve 25 bebidas correctas en una sola sesión del modo desafío",
+          "checked": false
+        },
+        {
+          "category": "Modo Desafío",
+          "name": "Gurú Barista",
+          "goal": "Sirve 50 bebidas correctas en una sola sesión del modo desafío",
+          "checked": false
+        },
+        {
+          "category": "Progreso de la Historia",
+          "name": "Una forma de averiguarlo",
+          "goal": "Juega el modo historia hasta el final una vez",
+          "checked": false
+        },
+        {
+          "category": "Tomodachill",
+          "name": "Fiebre de las Redes Sociales",
+          "goal": "Desbloquea todos los perfiles de redes sociales de los personajes",
+          "checked": false
+        },
+        {
+          "category": "Bebidas",
+          "name": "Barista del Año Votado",
+          "goal": "Sirve todas las mejores órdenes de bebidas",
+          "checked": false
+        },
+        {
+          "category": "Mejores Finales",
+          "name": "Una Nueva Página",
+          "goal": "Desbloquea el Mejor Final de Ash",
+          "checked": false
+        },
+        {
+          "category": "Mejores Finales",
+          "name": "Última Fiesta en Ciudad Fantasma",
+          "goal": "Desbloquea el Mejor Final de Ayame",
+          "checked": false
+        },
+        {
+          "category": "Mejores Finales",
+          "name": "Un Pie en la Puerta",
+          "goal": "Desbloquea el Mejor Final de Blue",
+          "checked": false
+        },
+        {
+          "category": "Mejores Finales",
+          "name": "Fuera de la Oficina",
+          "goal": "Desbloquea el Mejor Final de Emi",
+          "checked": false
+        },
+        {
+          "category": "Mejores Finales",
+          "name": "Revisión por Pares: Aprobada",
+          "goal": "Desbloquea el Mejor Final de Erika",
+          "checked": false
+        },
+        {
+          "category": "Mejores Finales",
+          "name": "Oficinista Nunca Más",
+          "goal": "Desbloquea el Mejor Final de Fuku",
+          "checked": false
+        },
+        {
+          "category": "Mejores Finales",
+          "name": "Inspiración de la Fuente",
+          "goal": "Desbloquea el Mejor Final de Jun",
+          "checked": false
+        },
+        {
+          "category": "Mejores Finales",
+          "name": "Saliendo del Trabajo, Volviendo a Casa",
+          "goal": "Desbloquea el Mejor Final de Kenji",
+          "checked": false
+        },
+        {
+          "category": "Mejores Finales",
+          "name": "Nuevo Yo Activado",
+          "goal": "Desbloquea el Mejor Final de Makoto",
+          "checked": false
+        },
+        {
+          "category": "Mejores Finales",
+          "name": "Con un Poco de Ayuda de Mis Amigos",
+          "goal": "Desbloquea el Mejor Final de Vin",
+          "checked": false
+        },
+        {
+          "category": "Mejores Finales",
+          "name": "Adiós Hiromi",
+          "goal": "Desbloquea el Mejor Final de Yuki",
+          "checked": false
+        },
+        {
+          "category": "Mejores Finales",
+          "name": "Viendo lo Mejor en Yokai",
+          "goal": "Termina el juego con todos los mejores finales",
+          "checked": false
+        },
+        {
+          "category": "Cameos",
+          "name": "Seattle-Tokyo",
+          "goal": "Conoce a un viejo amigo en un nuevo lugar",
+          "checked": false
+        },
+        {
+          "category": "Cameos",
+          "name": "Padre e Hija",
+          "goal": "Conoce a Rachel en Tokyo",
+          "checked": false
+        },
+        {
+          "category": "Escenas de Ruta",
+          "name": "Uno para la Cabeza... Uno para el Corazón",
+          "goal": "Haz que Kenji beba mucho y poco",
+          "checked": false
+        },
+        {
+          "category": "Escenas de Ruta",
+          "name": "Madeleine de Fantasma",
+          "goal": "Sirve bento a Ayame",
+          "checked": false
+        },
+        {
+          "category": "Escenas de Ruta",
+          "name": "Mensajero entre Mundos",
+          "goal": "Haz que Ayame y Akiko hablen",
+          "checked": false
+        },
+        {
+          "category": "Tomodachill",
+          "name": "El Fantasma Atrapado",
+          "goal": "Mira la selfie de las tres damas en un bar",
+          "checked": false
+        },
+        {
+          "category": "Escenas de Ruta",
+          "name": "Amor de Verano",
+          "goal": "Ve a Vin y Blue tomados de la mano",
+          "checked": false
+        },
+        {
+          "category": "Escenas de Ruta",
+          "name": "El Dragón Interior",
+          "goal": "Haz que Jun se transforme en un dragón",
+          "checked": false
+        },
+        {
+          "category": "Tomodachill",
+          "name": "Cameo especial",
+          "goal": "Encuentra las publicaciones de Tomodachill de los clientes habituales de Seattle",
+          "checked": false
+        },
+        {
+          "category": "Post-Créditos",
+          "name": "Noches Azules Verdaderas",
+          "goal": "Haz que las voces de Blue Nights suenen durante los créditos",
+          "checked": false
+        },
+        {
+          "category": "Post-Créditos",
+          "name": "El violín más cálido del mundo",
+          "goal": "Activa la escena del violín de Akiko en Después de los Créditos",
+          "checked": false
+        },
+        {
+          "category": "Bebidas",
+          "name": "Maestro Cervecero",
+          "goal": "Desbloquea todas las bebidas especiales",
+          "checked": false
+        },
+        {
+          "category": "Galería",
+          "name": "Conocedor de Arte",
+          "goal": "Desbloquea todas las obras de arte en la Galería",
+          "checked": false
+        },
+        {
+          "category": "Finalización",
+          "name": "Gracias por Jugar",
+          "goal": "Desbloquea todos los logros",
+          "checked": false
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes de Coffee Talk Tokyo",
+    "titleHighlight": "Preguntas",
+    "subtitle": "Respuestas rápidas a preguntas comunes de Coffee Talk Tokyo",
+    "questions": [
+      {
+        "question": "¿Coffee Talk Tokyo es un juego para un solo jugador?",
+        "answer": "Sí. Coffee Talk Tokyo está diseñado como una experiencia narrativa para un solo jugador centrada en el diálogo y las elecciones de bebidas."
+      },
+      {
+        "question": "¿Cómo cambian los finales de Coffee Talk Tokyo?",
+        "answer": "Los finales se forman por las elecciones de diálogo, las bebidas correctas y las condiciones de ruta de la historia tardía ligadas a los resultados de los personajes."
+      },
+      {
+        "question": "¿Coffee Talk Tokyo usa pistas de Tomodachill?",
+        "answer": "Sí. Las publicaciones y hashtags de Tomodachill proporcionan contexto adicional que puede ayudar con las decisiones de ruta y la configuración del final."
+      },
+      {
+        "question": "¿Dónde puedo jugar Coffee Talk Tokyo?",
+        "answer": "Coffee Talk Tokyo está disponible en Steam, PlayStation 5, Nintendo Switch, Nintendo Switch 2 y las tiendas de Xbox."
+      },
+      {
+        "question": "¿Cuántos logros hay en Coffee Talk Tokyo?",
+        "answer": "Coffee Talk Tokyo tiene 44 logros, que cubren el progreso de la historia, las bebidas, las rutas y los objetivos de finalización total."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para más Coffee Talk Tokyo?",
+    "description": "Sigue los canales oficiales y mantente al tanto de las rutas, recetas y actualizaciones de Coffee Talk Tokyo.",
+    "joinCommunity": "Únete al Discord de Coffee Talk",
+    "joinGame": "Juega Coffee Talk Tokyo en Steam"
+  },
+  "footer": {
+    "title": "Wiki de Coffee Talk Tokyo",
+    "description": "Tu centro de recursos completo para recetas, finales, personajes, pistas de Tomodachill y guías de plataforma de Coffee Talk Tokyo.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord Oficial",
+    "twitter": "X Oficial",
+    "steamCommunity": "Discusiones de Steam",
+    "steamStore": "Tienda de Steam",
+    "about": "Acerca de",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "copyrightNotice": "Derechos de Autor",
+    "copyright": "© 2026 Coffee Talk Tokyo Wiki. No afiliado con Chorus Worldwide Games o Toge Productions.",
+    "disclaimer": "Sitio web de recursos no oficial hecho por fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Lanzamiento de Coffee Talk Tokyo",
+      "description": "Sigue el calendario de lanzamiento, los detalles de la edición y las actualizaciones oficiales de Coffee Talk Tokyo.",
+      "metaTitle": "Lanzamiento de Coffee Talk Tokyo - Fecha, Ediciones y Actualizaciones de Lanzamiento",
+      "metaDescription": "Sigue la cobertura del lanzamiento de Coffee Talk Tokyo con detalles de la fecha de lanzamiento, diferencias de edición y cronogramas de actualización oficiales.",
+      "categoryLabel": "LANZAMIENTO",
+      "whatIs": "¿Qué es la cobertura de lanzamiento de Coffee Talk Tokyo?",
+      "whatIsDescription": "Esta sección recopila el calendario de lanzamiento oficial, las opciones de edición y los cambios de anuncios para que puedas confirmar rápidamente cuándo está disponible Coffee Talk Tokyo y qué incluye cada versión de la tienda.",
+      "why": "¿Por qué seguir esta sección?",
+      "whySteps": {
+        "step1Title": "Confirmar Disponibilidad",
+        "step1Description": "Verifica si Coffee Talk Tokyo está disponible en tu tienda y región objetivo.",
+        "step2Title": "Comparar Ediciones",
+        "step2Description": "Revisa los detalles estándar, de lujo y de actualización antes de comprar.",
+        "step3Title": "Detectar Cambios de Horario",
+        "step3Description": "Identifica retrasos, ventanas de lanzamiento y actualizaciones de la línea de tiempo post-lanzamiento con anticipación."
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de Lanzamiento"
+    },
+    "platforms": {
+      "title": "Plataformas de Coffee Talk Tokyo",
+      "description": "Mira dónde se puede jugar Coffee Talk Tokyo en PC, consola y variantes de tiendas.",
+      "metaTitle": "Plataformas de Coffee Talk Tokyo - Guía de PC, Consola y Tiendas",
+      "metaDescription": "Consulta el soporte de plataforma de Coffee Talk Tokyo, la disponibilidad en tiendas y las notas específicas de la versión para cada sistema.",
+      "categoryLabel": "PLATAFORMAS",
+      "whatIs": "¿Qué son las guías de plataforma de Coffee Talk Tokyo?",
+      "whatIsDescription": "Las guías de plataforma explican la disponibilidad del sistema, los listados de tiendas y las notas de la versión de Coffee Talk Tokyo para que puedas elegir el mejor lugar para jugar.",
+      "why": "¿Por qué leer las guías de plataforma?",
+      "whySteps": {
+        "step1Title": "Elige tu sistema",
+        "step1Description": "Compara la disponibilidad en PC y consola antes de comprar.",
+        "step2Title": "Verifica las opciones de la tienda",
+        "step2Description": "Identifica qué tienda tiene la versión y el precio que deseas.",
+        "step3Title": "Evita sorpresas de compatibilidad",
+        "step3Description": "Revisa el soporte de lanzamiento y las notas del ecosistema en un solo lugar."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de la plataforma"
+    },
+    "demo": {
+      "title": "Demo de Coffee Talk Tokyo",
+      "description": "Prepárate para la demo de Coffee Talk Tokyo con consejos de ruta, práctica de bebidas y notas de progresión.",
+      "metaTitle": "Demo de Coffee Talk Tokyo - Acceso, duración y consejos de recorrido",
+      "metaDescription": "Obtén cobertura de la demo de Coffee Talk Tokyo, incluyendo el estado de acceso, la duración estimada, las rutas de bebidas y la guía de recorrido.",
+      "categoryLabel": "DEMO",
+      "whatIs": "¿Qué hay en la sección de la demo de Coffee Talk Tokyo?",
+      "whatIsDescription": "La sección de la demo se centra en el contenido de prelanzamiento y prueba de Coffee Talk Tokyo, incluyendo el estado de acceso, el alcance jugable y formas eficientes de probar los sistemas centrales.",
+      "why": "¿Por qué usar las guías de la demo?",
+      "whySteps": {
+        "step1Title": "Comienza más rápido",
+        "step1Description": "Aprende el flujo de apertura y evita perder tiempo en la demo.",
+        "step2Title": "Practica bebidas clave",
+        "step2Description": "Ensaya pedidos comunes y disparadores de ramificación antes de las partidas completas.",
+        "step3Title": "Planifica la progresión del juego completo",
+        "step3Description": "Lleva el conocimiento útil de la ruta de las sesiones de la demo a las versiones de lanzamiento."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de la demo"
+    },
+    "guide": {
+      "title": "Guía de Coffee Talk Tokyo",
+      "description": "Utiliza la estrategia completa de recorrido de Coffee Talk Tokyo para las rutas de la historia, el ritmo y la configuración de los finales.",
+      "metaTitle": "Guía de Coffee Talk Tokyo - Recorrido, progresión y finales",
+      "metaDescription": "Lee el contenido de la guía de Coffee Talk Tokyo para el flujo del recorrido, la planificación de rutas y la progresión eficiente de los finales.",
+      "categoryLabel": "GUÍA",
+      "whatIs": "¿Qué se cubre en las guías de Coffee Talk Tokyo?",
+      "whatIsDescription": "Esta categoría proporciona soporte completo para Coffee Talk Tokyo, desde la incorporación de principiantes hasta la planificación de rutas, la secuencia de escenas y la estrategia de progresión de finales.",
+      "why": "¿Por qué seguir los artículos de la guía?",
+      "whySteps": {
+        "step1Title": "Comprender la lógica de la ruta",
+        "step1Description": "Observa cómo las elecciones y los patrones de servicio influyen en las ramas de la historia.",
+        "step2Title": "Reduce las escenas perdidas",
+        "step2Description": "Sigue los puntos de control diarios para mantener los eventos importantes en marcha.",
+        "step3Title": "Termina eficientemente",
+        "step3Description": "Utiliza planes de progresión estructurados para desbloquear más finales con menos repeticiones."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de la guía"
+    },
+    "recipes": {
+      "title": "Recetas de Coffee Talk Tokyo",
+      "description": "Domina las recetas de bebidas de Coffee Talk Tokyo, los ingredientes y las soluciones de pedidos para cada solicitud del cliente.",
+      "metaTitle": "Recetas de Coffee Talk Tokyo - Lista de bebidas, ingredientes y soluciones",
+      "metaDescription": "Encuentra recetas de Coffee Talk Tokyo con combinaciones de ingredientes, variantes de bebidas y referencias prácticas para resolver pedidos.",
+      "categoryLabel": "RECETAS",
+      "whatIs": "¿Qué son las guías de recetas de Coffee Talk Tokyo?",
+      "whatIsDescription": "Las guías de recetas catalogan las bebidas de Coffee Talk Tokyo, las combinaciones de ingredientes y los patrones de solicitud para que puedas servir la bebida correcta sin bucles de prueba y error.",
+      "why": "¿Por qué usar referencias de recetas?",
+      "whySteps": {
+        "step1Title": "Sirve las bebidas correctas",
+        "step1Description": "Combina los pedidos rápidamente con secuencias de ingredientes claras.",
+        "step2Title": "Maneja solicitudes especiales",
+        "step2Description": "Resuelve solicitudes de temperatura y variación con menos reintentos.",
+        "step3Title": "Apoya mejores resultados",
+        "step3Description": "Usa elecciones de bebidas precisas para preservar el progreso de la ruta y los finales."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de recetas"
+    },
+    "characters": {
+      "title": "Personajes de Coffee Talk Tokyo",
+      "description": "Explora los perfiles de personajes de Coffee Talk Tokyo, el contexto de las relaciones y las pistas de la historia relevantes para la ruta.",
+      "metaTitle": "Personajes de Coffee Talk Tokyo - Perfiles, arcos y contexto de la ruta",
+      "metaDescription": "Explora las guías de personajes de Coffee Talk Tokyo con detalles de perfil, arcos personales y contexto de la ruta para mejores decisiones de la historia.",
+      "categoryLabel": "PERSONAJES",
+      "whatIs": "¿Qué se incluye en la cobertura de personajes de Coffee Talk Tokyo?",
+      "whatIsDescription": "La cobertura de personajes rastrea a los clientes y al elenco de apoyo de Coffee Talk Tokyo, con notas de perfil, contexto de la historia y señales de interacción que importan para los resultados de la ruta.",
+      "why": "¿Por qué leer las guías de personajes?",
+      "whySteps": {
+        "step1Title": "Aprende el contexto del personaje",
+        "step1Description": "Comprende las motivaciones y los puntos de conflicto antes de las escenas clave.",
+        "step2Title": "Detecta señales de la historia",
+        "step2Description": "Reconoce el diálogo y las señales de servicio vinculadas a los cambios de rama.",
+        "step3Title": "Mejora las decisiones de ruta",
+        "step3Description": "Usa el conocimiento del perfil para tomar decisiones más limpias durante los capítulos críticos."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de personajes"
+    }
   }
 }
