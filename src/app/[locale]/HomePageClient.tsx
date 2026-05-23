@@ -83,23 +83,25 @@ export default function HomePageClient({
   moduleLinkMap,
   locale,
 }: HomePageClientProps) {
+  const HERO_IMAGE_ABSOLUTE_URL = "https://coffeetalktokyo.wiki/images/hero.webp";
   const t = useMessages() as any;
   const heroContent = {
     badge: "Cozy Narrative Cafe Simulator",
     title: "Coffee Talk Tokyo Wiki",
     description:
       "Coffee Talk Tokyo is a late-night cafe story game set in modern Tokyo. Brew hot and iced drinks, meet humans and yokai, and unlock character endings through your choices.",
-    ctaPrimary: "View Recipes",
-    ctaSecondary: "Play on Steam",
+    ctaPrimary: "Visit Official Website",
+    ctaSecondary: "Play Coffee Talk Tokyo on Steam",
     stats: [
       { value: "21 May 2026", label: "Release Date" },
       { value: "11", label: "Characters" },
       { value: "44", label: "Steam Achievements" },
-      { value: "93%", label: "Positive Reviews" },
+      { value: "92% Positive", label: "Steam Reviews" },
     ],
   };
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.coffeetalktokyo.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://coffeetalktokyo.wiki";
+  const heroImage = `${siteUrl}/images/hero.webp`;
 
   // Structured data
   const structuredData = {
@@ -114,7 +116,7 @@ export default function HomePageClient({
           "Coffee Talk Tokyo Wiki covering drink recipes, character arcs, endings, Tomodachill clues, and platform guides for the late-night Tokyo cafe story.",
         image: {
           "@type": "ImageObject",
-          url: `${siteUrl}/images/hero.webp`,
+          url: heroImage || HERO_IMAGE_ABSOLUTE_URL,
           width: 1920,
           height: 1080,
           caption: "Coffee Talk Tokyo - Late-Night Tokyo Cafe",
@@ -128,20 +130,20 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Coffee Talk Tokyo Wiki",
+        "name": "Coffee Talk Tokyo Wiki",
         alternateName: "Coffee Talk Tokyo",
-        url: siteUrl,
+        "url": siteUrl,
         description:
           "Community wiki hub for Coffee Talk Tokyo recipes, endings, characters, and gameplay references.",
-        logo: {
+        "logo": {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
           width: 512,
           height: 512,
         },
-        image: {
+        "image": {
           "@type": "ImageObject",
-          url: `${siteUrl}/images/hero.webp`,
+          url: heroImage || HERO_IMAGE_ABSOLUTE_URL,
           width: 1920,
           height: 1080,
           caption: "Coffee Talk Tokyo Wiki",
@@ -157,7 +159,7 @@ export default function HomePageClient({
       {
         "@type": "VideoGame",
         name: "Coffee Talk Tokyo",
-        gamePlatform: ["PC", "PlayStation 5", "Xbox Series X|S", "Nintendo Switch"],
+        gamePlatform: ["PC", "PlayStation 5", "Nintendo Switch", "Nintendo Switch 2"],
         applicationCategory: "Game",
         genre: ["Simulation", "Visual Novel", "Narrative"],
         numberOfPlayers: {
@@ -177,7 +179,7 @@ export default function HomePageClient({
         description:
           "Official Coffee Talk Tokyo trailer featuring the late-night Tokyo cafe setting and story preview.",
         uploadDate: "2026-05-21",
-        thumbnailUrl: `${siteUrl}/images/hero.webp`,
+        thumbnailUrl: heroImage || HERO_IMAGE_ABSOLUTE_URL,
         embedUrl: "https://www.youtube.com/embed/yT9jTs5uZ_I",
         url: "https://www.youtube.com/watch?v=yT9jTs5uZ_I",
       },
@@ -252,15 +254,17 @@ export default function HomePageClient({
 
             {/* CTA Buttons */}
             <div className="mb-10 flex flex-col justify-center gap-3 sm:flex-row md:mb-12 md:gap-4">
-              <button
-                onClick={() => scrollToSection("beginner-guide")}
+              <a
+                href="https://chorusworldwide.com/coffee-talk-tokyo/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
                            bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)]
                            text-white rounded-lg font-semibold text-base md:text-lg transition-colors"
               >
                 <BookOpen className="w-5 h-5" />
                 {heroContent.ctaPrimary}
-              </button>
+              </a>
               <a
                 href="https://store.steampowered.com/app/3161220/Coffee_Talk_Tokyo/"
                 target="_blank"
@@ -1354,7 +1358,7 @@ export default function HomePageClient({
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    Steam Community <ExternalLink className="w-3 h-3" />
+                    Steam Discussions <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
               </div>
@@ -1435,7 +1439,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/3161220"
+                    href="https://steamcommunity.com/app/3161220/discussions/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

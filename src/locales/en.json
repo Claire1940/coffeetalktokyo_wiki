@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Cozy Narrative Cafe Simulator",
+    "title": "Coffee Talk Tokyo Wiki",
+    "description": "Coffee Talk Tokyo is a cozy visual novel set in a late-night Tokyo cafe. Brew hot and iced drinks, meet humans and yokai, follow Tomodachill clues, unlock endings, and enjoy lo-fi cafe stories.",
+    "getFreeCodesCTA": "View Recipes",
+    "playOnSteamCTA": "Play Coffee Talk Tokyo on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "21 May 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "11",
+        "label": "Characters"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "44",
+        "label": "Steam Achievements"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "92% Positive",
+        "label": "Steam Reviews"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Visit Coffee Talk Tokyo?",
+    "description": "Join the official Coffee Talk community and follow Coffee Talk Tokyo updates from Steam and Discord.",
+    "joinCommunity": "Join Coffee Talk Discord",
+    "joinGame": "Play Coffee Talk Tokyo on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Coffee Talk Tokyo Wiki",
+    "description": "Your complete resource hub for Coffee Talk Tokyo recipes, endings, characters, Tomodachill clues, and platform guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
+    "discord": "Official Discord",
+    "twitter": "Official X",
+    "steamCommunity": "Steam Discussions",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Coffee Talk Tokyo Wiki. Not affiliated with Chorus Worldwide Games or Toge Productions.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

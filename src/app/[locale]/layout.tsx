@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -37,14 +37,16 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
-
-  // 获取 SEO 翻译
-  const t = await getTranslations("seo.home");
+    process.env.NEXT_PUBLIC_SITE_URL || "https://coffeetalktokyo.wiki";
+  const HERO_IMAGE_ABSOLUTE_URL = "https://coffeetalktokyo.wiki/images/hero.webp";
+  const heroImage = `${siteUrl}/images/hero.webp`;
+  const title = "Coffee Talk Tokyo Wiki - Recipes, Endings & Characters";
+  const description =
+    "Coffee Talk Tokyo Wiki for drink recipes, endings, characters, Tomodachill posts, latte art, achievements, platforms, demo, and Tokyo cafe story guides.";
 
   return {
-    title: t("title"),
-    description: t("description"),
+    title,
+    description,
     robots: {
       index: true,
       follow: true,
@@ -60,24 +62,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       locale: locale,
       url: locale === "en" ? siteUrl : `${siteUrl}/${locale}`,
-      siteName: "Lucid Blocks Wiki",
-      title: t("ogTitle"),
-      description: t("ogDescription"),
+      siteName: "Coffee Talk Tokyo Wiki",
+      title,
+      description,
       images: [
         {
-          url: `${siteUrl}/images/hero.webp`,
+          url: heroImage || HERO_IMAGE_ABSOLUTE_URL,
           width: 1920,
           height: 1080,
-          alt: "Lucid Blocks - Surreal Voxel Sandbox",
+          alt: "Coffee Talk Tokyo - Late-Night Tokyo Cafe",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: t("twitterTitle"),
-      description: t("twitterDescription"),
-      images: [`${siteUrl}/images/hero.webp`],
-      creator: "@lucidblocks",
+      title,
+      description,
+      images: [heroImage || HERO_IMAGE_ABSOLUTE_URL],
+      creator: "@coffeetalk_game",
     },
     icons: {
       icon: [
