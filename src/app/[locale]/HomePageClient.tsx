@@ -84,8 +84,22 @@ export default function HomePageClient({
   locale,
 }: HomePageClientProps) {
   const t = useMessages() as any;
+  const heroContent = {
+    badge: "Cozy Narrative Cafe Simulator",
+    title: "Coffee Talk Tokyo Wiki",
+    description:
+      "Coffee Talk Tokyo is a late-night cafe story game set in modern Tokyo. Brew hot and iced drinks, meet humans and yokai, and unlock character endings through your choices.",
+    ctaPrimary: "View Recipes",
+    ctaSecondary: "Play on Steam",
+    stats: [
+      { value: "21 May 2026", label: "Release Date" },
+      { value: "11", label: "Characters" },
+      { value: "44", label: "Steam Achievements" },
+      { value: "93%", label: "Positive Reviews" },
+    ],
+  };
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.coffeetalktokyo.wiki";
 
   // Structured data
   const structuredData = {
@@ -95,15 +109,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "Coffee Talk Tokyo Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Coffee Talk Tokyo Wiki covering drink recipes, character arcs, endings, Tomodachill clues, and platform guides for the late-night Tokyo cafe story.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          caption: "Coffee Talk Tokyo - Late-Night Tokyo Cafe",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -114,11 +128,11 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Coffee Talk Tokyo Wiki",
+        alternateName: "Coffee Talk Tokyo",
         url: siteUrl,
         description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "Community wiki hub for Coffee Talk Tokyo recipes, endings, characters, and gameplay references.",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -130,21 +144,22 @@ export default function HomePageClient({
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          caption: "Coffee Talk Tokyo Wiki",
         },
         sameAs: [
-          "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://chorusworldwide.com/coffee-talk-tokyo/",
+          "https://store.steampowered.com/app/3161220/Coffee_Talk_Tokyo/",
+          "https://discord.com/servers/toge-productions-311022193737990148",
+          "https://x.com/coffeetalk_game",
+          "https://www.youtube.com/@chorusworld",
         ],
       },
       {
         "@type": "VideoGame",
-        name: "Lucid Blocks",
-        gamePlatform: ["PC", "Steam"],
+        name: "Coffee Talk Tokyo",
+        gamePlatform: ["PC", "PlayStation 5", "Xbox Series X|S", "Nintendo Switch"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["Simulation", "Visual Novel", "Narrative"],
         numberOfPlayers: {
           minValue: 1,
           maxValue: 1,
@@ -153,18 +168,18 @@ export default function HomePageClient({
           "@type": "Offer",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
+          url: "https://store.steampowered.com/app/3161220/Coffee_Talk_Tokyo/",
         },
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "Coffee Talk Tokyo - Official Launch Trailer",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
-        uploadDate: "2026-03-12",
+          "Official Coffee Talk Tokyo trailer featuring the late-night Tokyo cafe setting and story preview.",
+        uploadDate: "2026-05-21",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/yT9jTs5uZ_I",
+        url: "https://www.youtube.com/watch?v=yT9jTs5uZ_I",
       },
     ],
   };
@@ -221,18 +236,18 @@ export default function HomePageClient({
             >
               <Sparkles className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-xs md:text-sm font-medium">
-                {t.hero.badge}
+                {heroContent.badge}
               </span>
             </div>
 
             {/* Title */}
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 md:mb-6 leading-[1.05]">
-              {t.hero.title}
+              {heroContent.title}
             </h1>
 
             {/* Description */}
             <p className="mx-auto mb-8 max-w-2xl text-base leading-7 text-muted-foreground sm:text-lg md:mb-10 md:max-w-3xl md:text-2xl">
-              {t.hero.description}
+              {heroContent.description}
             </p>
 
             {/* CTA Buttons */}
@@ -244,17 +259,17 @@ export default function HomePageClient({
                            text-white rounded-lg font-semibold text-base md:text-lg transition-colors"
               >
                 <BookOpen className="w-5 h-5" />
-                {t.hero.getFreeCodesCTA}
+                {heroContent.ctaPrimary}
               </button>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href="https://store.steampowered.com/app/3161220/Coffee_Talk_Tokyo/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
                            border border-border hover:bg-white/10 rounded-lg
                            font-semibold text-base md:text-lg transition-colors"
               >
-                {t.hero.playOnSteamCTA}
+                {heroContent.ctaSecondary}
                 <ArrowRight className="w-5 h-5" />
               </a>
             </div>
@@ -262,18 +277,18 @@ export default function HomePageClient({
 
           {/* Stats */}
           <Suspense fallback={<LoadingPlaceholder height="h-32" />}>
-            <HeroStats stats={Object.values(t.hero.stats)} />
+            <HeroStats stats={heroContent.stats} />
           </Suspense>
         </div>
       </section>
 
       {/* Video Section */}
       <section className="px-4 py-10 md:py-12">
-        <div className="scroll-reveal container mx-auto max-w-5xl">
+        <div className="scroll-reveal container mx-auto max-w-6xl">
           <div className="relative overflow-hidden rounded-2xl">
             <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
+              videoId="yT9jTs5uZ_I"
+              title="Coffee Talk Tokyo - Official Launch Trailer"
             />
           </div>
         </div>
@@ -779,7 +794,7 @@ export default function HomePageClient({
                 >
                   <div className="mb-3">
                     <span
-                      className={`text-xs px-2 py-1 rounded-full border ${["Hostile Enemy", "Major Threat", "Elite Threat"].includes(c.role) ? "bg-red-500/10 border-red-500/30 text-red-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
+                      className={`text-xs px-2 py-1 rounded-full border ${["Hostile Enemy", "Major Threat", "Elite Threat"].includes(c.role) ? "bg-[hsl(var(--nav-theme-light))/0.12] border-[hsl(var(--nav-theme-light))/0.35] text-[hsl(var(--nav-theme-light))]" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
                     >
                       {c.role}
                     </span>
@@ -969,7 +984,7 @@ export default function HomePageClient({
                   <div className="flex items-center gap-2 mb-3">
                     <Star className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                     <span
-                      className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-red-500/10 border-red-500/30 text-red-400" : p.priority === "Very High" ? "bg-orange-500/10 border-orange-500/30 text-orange-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
+                      className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-[hsl(var(--nav-theme-light))/0.12] border-[hsl(var(--nav-theme-light))/0.35] text-[hsl(var(--nav-theme-light))]" : p.priority === "Very High" ? "bg-orange-500/10 border-orange-500/30 text-orange-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
                     >
                       {p.priority}
                     </span>
@@ -1325,7 +1340,7 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://discord.com/servers/toge-productions-311022193737990148"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1334,7 +1349,7 @@ export default function HomePageClient({
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://store.steampowered.com/app/3161220/Coffee_Talk_Tokyo/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1400,7 +1415,7 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://discord.com/servers/toge-productions-311022193737990148"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1410,7 +1425,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://x.com/lucidblocks"
+                    href="https://x.com/coffeetalk_game"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1420,7 +1435,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/3495730"
+                    href="https://steamcommunity.com/app/3161220"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1430,7 +1445,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://store.steampowered.com/app/3161220/Coffee_Talk_Tokyo/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

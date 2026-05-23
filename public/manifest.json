@@ -1,12 +1,21 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Coffee Talk Tokyo Wiki - Recipes, Endings & Characters",
+  "short_name": "Coffee Talk Tokyo",
+  "description": "Coffee Talk Tokyo Wiki for drink recipes, endings, characters, Tomodachill posts, latte art, achievements, and platform guides.",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "orientation": "portrait-primary",
+  "lang": "en-US",
+  "dir": "ltr",
+  "theme_color": "#f0a23a",
+  "background_color": "#0f0d0c",
+  "categories": [
+    "games",
+    "entertainment",
+    "reference"
+  ],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
