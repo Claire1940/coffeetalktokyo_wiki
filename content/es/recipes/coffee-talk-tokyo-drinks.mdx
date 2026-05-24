@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bebidas de Coffee Talk Tokyo: Guía Completa de Recetas y Consejos de Preparación",
+  description: "Domina las 54 bebidas de Coffee Talk Tokyo con nuestra guía completa de recetas. Aprende a preparar cafés especiales, tés y hojicha para desbloquear todos los finales de los personajes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/3c2a21/fff?text=Coffee+Talk+Tokyo+Drinks+Guide",
+  date: "2026-05-24",
+  author: "Equipo Wiki de Coffee Talk Tokyo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Domina la Temperatura**: En esta entrega, elegir **Caliente** o **Frío** es tan vital como los propios ingredientes para las recetas especiales.
+- **54 Recetas Especiales**: Hay exactamente 54 **bebidas únicas de Coffee Talk Tokyo** por descubrir en la Brewpad para alcanzar el 100% de completitud.
+- **Nuevos Ingredientes**: Experimenta con adiciones regionales como **Hojicha**, **Yuzu**, **Mango** y **Lichi** para satisfacer a la clientela de Tokio.
+- **Impacto en el Final**: Servir la bebida correcta en momentos clave de la historia es la única manera de asegurar el "Mejor Final" para cada uno de los 11 personajes.
+- **Modo Infinito**: Usa el modo Preparación Libre o Modo Desafío para experimentar con ingredientes de forma segura sin afectar tu progreso en la historia.
+</Callout>
+
+<Section icon={Map} title="Dominando el Arte de las Bebidas de Coffee Talk Tokyo">
+
+Las bulliciosas calles del moderno Tokio en 2026 ofrecen un nuevo telón de fondo para el querido simulador de barista lo-fi. Como propietario de una cafetería nocturna, tu principal herramienta de conexión es el menú. Comprender la mecánica detrás de las **bebidas de Coffee Talk Tokyo** es esencial porque, a diferencia de las entregas anteriores, la distinción entre bebidas calientes y heladas se ha ampliado significativamente. Cada cliente que cruza tu puerta —ya sea humano o yōkai— busca algo más que cafeína; busca un sabor que resuene con sus luchas personales y transiciones.
+
+**Puntos Destacados del Video:**
+- **Ambiente Atmosférico**: Un vistazo a la nueva cafetería basada en Tokio y su acogedora estética nocturna.
+- **Nuevo Elenco**: Presentación de los 11 nuevos personajes a los que servirás.
+- **Mecánicas de Preparación**: Un vistazo a la interfaz actualizada para seleccionar ingredientes y temperatura.
+- **Imágenes y Sonido**: Avance de la nueva banda sonora de City Pop y lo-fi de Andrew “AJ” Jeremy.
+
+<YouTubeEmbed videoId="Y-11IdZyubA" title="Coffee Talk Tokyo - Tráiler de Lanzamiento" />
+
+El proceso de preparación sigue un estricto sistema de tres ranuras: una **Base**, un **Ingrediente Principal** y un **Ingrediente Secundario**. En *Coffee Talk Tokyo*, primero debes accionar el interruptor de temperatura antes de añadir tus componentes. Si sigues una receta perfectamente pero seleccionas la temperatura incorrecta, terminarás con una bebida "Estándar" en lugar de una "Especial", lo que a menudo impide que los personajes se abran durante conversaciones profundas.
+
+<Callout type="tip" title="Secreto de Barista">
+Si un cliente pide algo "refrescante" o "frío", siempre opta por la configuración **Frío**. Por el contrario, si mencionan "calor" o "confort", mantén la configuración **Caliente**. Algunas recetas especiales solo existen en un estado de temperatura.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Recetas Especiales de Café y Chocolate Caliente">
+
+El café sigue siendo la piedra angular de tu menú, pero la tienda de Tokio introduce alternativas a base de soja y edulcorantes únicos como la miel. El "Black Magic" y el "Jahe Tubruk" regresan como favoritos de los fans, pero dominar el "Makoto Parfait" o el "Bee'n Buzzy" requiere una observación cuidadosa del nuevo orden de ingredientes.
+
+| Nombre de la Bebida | Temperatura | Base | Principal | Secundario |
+| :--- | :--- | :--- | :--- | :--- |
+| **Affogato** | Caliente | Café | Café | Helado |
+| **Bee'n Buzzy** | Caliente | Café | Miel | Leche de Soja |
+| **Black Magic** | Caliente | Café | Menta | Miel |
+| **Caffé Latte** | Caliente | Café | Leche de Soja | Leche de Soja |
+| **Coffee Float** | Frío | Café | Café | Helado |
+| **Ginger Latte** | Caliente | Café | Jengibre | Leche de Soja |
+| **Iced Au Lait** | Frío | Café | Leche de Soja | Leche de Soja |
+| **Makoto Parfait**| Frío | Café | Lichi | Helado |
+| **Sweet Coffee** | Caliente | Café | Café | Miel |
+
+Las bebidas de chocolate en Tokio se utilizan a menudo como "brebajes reconfortantes" para personajes que lidian con pérdidas o cambios de carrera de alta presión. El "299.792.456" (llamado así por la velocidad de la luz) es una compleja bebida de chocolate picante que sirve como un hito importante para uno de los clientes con mentalidad científica del juego.
+
+| Nombre de la Bebida | Temperatura | Base | Principal | Secundario |
+| :--- | :--- | :--- | :--- | :--- |
+| **299.792.456** | Caliente | Chocolate | Miel | Jengibre |
+| **After Midnight**| Caliente | Chocolate | Miel | Menta |
+| **Chaiced Cocoa** | Frío | Chocolate | Jengibre | Helado |
+| **Mint Shock** | Frío | Chocolate | Menta | Menta |
+| **Spanish Sahara**| Caliente | Chocolate | Leche de Soja | Jengibre |
+
+<Callout type="warning" title="El Orden de los Ingredientes Importa">
+El orden en que añades los ingredientes determina la bebida final. Añadir Café, luego Miel, luego Leche de Soja crea un **Bee'n Buzzy**, pero cambiar el orden podría resultar en un "Café con Miel y Soja" genérico.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Té y Té Verde: El Corazón de Tokio">
+
+Mientras que Seattle se definía por su café de día lluvioso, Tokio abraza su cultura del té. La inclusión de **Hojicha** (té verde tostado) y **Matcha** proporciona un perfil de sabor japonés más tradicional. Estas **bebidas de Coffee Talk Tokyo** son solicitadas frecuentemente por los personajes yōkai que han vivido en Japón durante siglos y prefieren las notas terrosas de las hojas tostadas a los granos amargos.
+
+| Nombre de la Bebida | Temperatura | Base | Principal | Secundario |
+| :--- | :--- | :--- | :--- | :--- |
+| **Gala Had** | Caliente | Té | Leche de Soja | Jengibre |
+| **Hotto Yuzu** | Caliente | Té | Yuzu | Miel |
+| **Sunset Fuji** | Frío | Té | Mango | Helado |
+| **Teh Tarik** | Caliente | Té | Té | Leche de Soja |
+| **Tropical Tea** | Frío | Té | Mango | Lichi |
+| **'Five Stars!'** | Caliente | Té Verde | Miel | Leche de Soja |
+| **Matcha Latte** | Caliente | Té Verde | Leche de Soja | Leche de Soja |
+| **Shin Genmaicha**| Caliente | Té Verde | Té Verde | Jengibre |
+| **Snow Forest** | Frío | Té Verde | Lichi | Helado |
+
+<Callout type="success" title="Descubrimiento de Recetas">
+Desbloquear el **Sunset Fuji** a menudo se considera una de las experiencias visuales más gratificantes del juego debido a sus vibrantes colores en capas. Es una bebida clave para los personajes artísticos del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Bebidas Especiales de Hojicha y a Base de Leche">
+
+El Hojicha es la nueva base destacada en este capítulo. Su aroma ahumado y a nuez lo hace perfecto para el "Chajito" o el "Hiyashi-Ame". Además, la categoría de leche ha sido renovada para usar leche de soja como predeterminada, reflejando los gustos urbanos modernos y las preferencias dietéticas dentro del escenario de 2026 de la historia.
+
+| Nombre de la Bebida | Temperatura | Base | Principal | Secundario |
+| :--- | :--- | :--- | :--- | :--- |
+| **Chajito** | Frío | Hojicha | Yuzu | Menta |
+| **Hiyashi-Ame** | Frío | Hojicha | Jengibre | Miel |
+| **Mango Melba** | Frío | Hojicha | Mango | Helado |
+| **Yuzu Cha** | Caliente | Hojicha | Yuzu | Miel |
+| **Lait de Menthe**| Caliente | Leche de Soja | Menta | Menta |
+| **Mango au Lait** | Frío | Leche de Soja | Mango | Leche de Soja |
+| **Milky Way** | Caliente | Leche de Soja | Miel | Menta |
+| **Pink Skiff** | Frío | Leche de Soja | Lichi | Helado |
+| **STMJ** | Caliente | Leche de Soja | Jengibre | Miel |
+
+<CardGrid cols={3}>
+  <Card title="El Favorito de los Yōkai">
+    - **Bebida**: Yuzu Cha
+    - **Ambiente**: Tradicional/Calmante
+    - **Ideal para**: Yōkai mayores que luchan con el ritmo acelerado del Tokio moderno.
+  </Card>
+  <Card title="La Elección Juvenil">
+    - **Bebida**: Pink Skiff
+    - **Ambiente**: Dulce/Moderno
+    - **Ideal para**: Personajes jóvenes y aquellos que buscan una experiencia de "postre".
+  </Card>
+  <Card title="El Combustible del Trabajador">
+    - **Bebida**: STMJ
+    - **Ambiente**: Picante/Energizante
+    - **Ideal para**: Empleados de oficina y clientes con exceso de trabajo que necesitan un impulso de jengibre.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Integración de Tomodachill">
+Revisa tu aplicación **Tomodachill** en el juego con frecuencia. A medida que sirvas las bebidas correctas, los personajes actualizarán sus perfiles con sabores "preferidos", lo que facilitará adivinar sus futuras solicitudes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preparando para el Mejor Final">
+
+Servir las **bebidas correctas de Coffee Talk Tokyo** no es solo llenar un libro de colecciones; es la forma principal en que interactúas con la narrativa. Cada personaje tiene un "punto de bifurcación" en su historia. Si no sirves su bebida preferida durante estas noches críticas, su historia podría terminar en estancamiento o conflicto sin resolver.
+
+<Steps>
+  <Step num="1" title="Escucha el Subtexto">
+    Los personajes rara vez piden una bebida por su nombre específico. Podrían decir que quieren algo "amargo pero cremoso" o "algo que les recuerde a la playa".
+  </Step>
+  <Step num="2" title="Revisa la Brewpad">
+    Si ya has desbloqueado una receta, usa la Brewpad para verificar los ingredientes. Si no lo has hecho, usa el modo "Preparación Libre" entre días de la historia para experimentar.
+  </Step>
+  <Step num="3" title="Perfecciona la Temperatura">
+    Siempre verifica dos veces el interruptor de Caliente/Frío antes de añadir el primer ingrediente. Un "Gala Had" frío es solo té con leche de jengibre y no activará el indicador de la historia.
+  </Step>
+  <Step num="4" title="Plantillas de Latte Art">
+    Usa el nuevo sistema de latte art basado en plantillas para añadir un toque personal. Aunque no siempre afecta el final, algunos personajes reaccionan positivamente a diseños específicos.
+  </Step>
+</Steps>
+
+<Checklist
+  id="completionist-checklist"
+  title="Lista de Verificación de Maestría Barista:"
+  items={[
+    "Desbloquea las 54 recetas especiales en la Brewpad",
+    "Alcanza el 'Mejor Final' para los 11 personajes",
+    "Completa el capítulo Prólogo de Seattle",
+    "Logra una racha de 50 bebidas en el Modo Desafío",
+    "Visualiza todos los perfiles de personajes en Tomodachill"
+  ]}
+/>
+
+<Callout type="tip" title="Valor de Rejugabilidad">
+No te preocupes si te pierdes una bebida en tu primera partida. *Coffee Talk Tokyo* presenta un "Mapa de la Historia" que te permite volver a días específicos para probar diferentes combinaciones y ver resultados alternativos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuántas bebidas de Coffee Talk Tokyo hay en total?",
+    answer: "Hay 54 bebidas especiales únicas registradas en la Brewpad. Esto no incluye las bebidas 'estándar' que son simplemente combinaciones de ingredientes que no forman una especialidad nombrada."
+  },
+  {
+    question: "¿Realmente importa el orden de los ingredientes?",
+    answer: "Sí. El primer ingrediente es la Base, el segundo es el Principal y el tercero es el Secundario. Intercambiar los ingredientes Principal y Secundario a menudo resultará en una bebida diferente o en una preparación genérica."
+  },
+  {
+    question: "¿Puedo desbloquear todas las recetas en una sola partida de historia?",
+    answer: "Es difícil desbloquear las 54 en una sola partida de historia porque los personajes tienen solicitudes específicas. Se recomienda encarecidamente usar el modo 'Preparación Libre' para completar los espacios restantes en tu Brewpad."
+  },
+  {
+    question: "¿Cuál es la bebida más difícil de hacer en Coffee Talk Tokyo?",
+    answer: "Muchos jugadores tienen dificultades con '299.792.456' y 'Sunset Fuji' porque requieren configuraciones de temperatura específicas y un orden de ingredientes preciso que no es inmediatamente intuitivo."
+  }
+]} />
+
+</Section>
