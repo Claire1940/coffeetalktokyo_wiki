@@ -1,0 +1,1154 @@
+{
+  "en": {
+    "characters": [
+      {
+        "slug": "coffee-talk-tokyo-ash",
+        "file": "coffee-talk-tokyo-ash"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ayame",
+        "file": "coffee-talk-tokyo-ayame"
+      },
+      {
+        "slug": "coffee-talk-tokyo-characters",
+        "file": "coffee-talk-tokyo-characters"
+      },
+      {
+        "slug": "coffee-talk-tokyo-freya",
+        "file": "coffee-talk-tokyo-freya"
+      },
+      {
+        "slug": "coffee-talk-tokyo-jun",
+        "file": "coffee-talk-tokyo-jun"
+      },
+      {
+        "slug": "coffee-talk-tokyo-returning-characters",
+        "file": "coffee-talk-tokyo-returning-characters"
+      },
+      {
+        "slug": "coffee-talk-tokyo-vin",
+        "file": "coffee-talk-tokyo-vin"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "coffee-talk-tokyo-demo-drinks",
+        "file": "coffee-talk-tokyo-demo-drinks"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo-guide",
+        "file": "coffee-talk-tokyo-demo-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo-length",
+        "file": "coffee-talk-tokyo-demo-length"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo-walkthrough",
+        "file": "coffee-talk-tokyo-demo-walkthrough"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo",
+        "file": "coffee-talk-tokyo-demo"
+      },
+      {
+        "slug": "coffee-talk-tokyo-switch-demo",
+        "file": "coffee-talk-tokyo-switch-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Coffee-Talk-Tokyo-age-rating",
+        "file": "Coffee-Talk-Tokyo-age-rating"
+      },
+      {
+        "slug": "coffee-talk-tokyo-beginner-guide",
+        "file": "coffee-talk-tokyo-beginner-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ending",
+        "file": "coffee-talk-tokyo-ending"
+      },
+      {
+        "slug": "coffee-talk-tokyo-gameplay",
+        "file": "coffee-talk-tokyo-gameplay"
+      },
+      {
+        "slug": "coffee-talk-tokyo-guide",
+        "file": "coffee-talk-tokyo-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-how-long-to-beat",
+        "file": "coffee-talk-tokyo-how-long-to-beat"
+      },
+      {
+        "slug": "coffee-talk-tokyo-orders",
+        "file": "coffee-talk-tokyo-orders"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ost",
+        "file": "coffee-talk-tokyo-ost"
+      },
+      {
+        "slug": "coffee-talk-tokyo-review",
+        "file": "coffee-talk-tokyo-review"
+      },
+      {
+        "slug": "coffee-talk-tokyo-soundtrack",
+        "file": "coffee-talk-tokyo-soundtrack"
+      },
+      {
+        "slug": "coffee-talk-tokyo-trophy-guide",
+        "file": "coffee-talk-tokyo-trophy-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-walkthrough",
+        "file": "coffee-talk-tokyo-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "coffee-talk-tokyo-android",
+        "file": "coffee-talk-tokyo-android"
+      },
+      {
+        "slug": "coffee-talk-tokyo-consoles",
+        "file": "coffee-talk-tokyo-consoles"
+      },
+      {
+        "slug": "coffee-talk-tokyo-eshop",
+        "file": "coffee-talk-tokyo-eshop"
+      },
+      {
+        "slug": "coffee-talk-tokyo-game-pass",
+        "file": "coffee-talk-tokyo-game-pass"
+      },
+      {
+        "slug": "coffee-talk-tokyo-microsoft-windows-store",
+        "file": "coffee-talk-tokyo-microsoft-windows-store"
+      },
+      {
+        "slug": "coffee-talk-tokyo-mobile",
+        "file": "coffee-talk-tokyo-mobile"
+      },
+      {
+        "slug": "coffee-talk-tokyo-nintendo-switch-2",
+        "file": "coffee-talk-tokyo-nintendo-switch-2"
+      },
+      {
+        "slug": "coffee-talk-tokyo-nintendo-switch",
+        "file": "coffee-talk-tokyo-nintendo-switch"
+      },
+      {
+        "slug": "coffee-talk-tokyo-physical-release",
+        "file": "coffee-talk-tokyo-physical-release"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ps4",
+        "file": "coffee-talk-tokyo-ps4"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ps5",
+        "file": "coffee-talk-tokyo-ps5"
+      },
+      {
+        "slug": "coffee-talk-tokyo-steam",
+        "file": "coffee-talk-tokyo-steam"
+      },
+      {
+        "slug": "coffee-talk-tokyo-switch-2",
+        "file": "coffee-talk-tokyo-switch-2"
+      },
+      {
+        "slug": "coffee-talk-tokyo-switch",
+        "file": "coffee-talk-tokyo-switch"
+      },
+      {
+        "slug": "coffee-talk-tokyo-xbox",
+        "file": "coffee-talk-tokyo-xbox"
+      }
+    ],
+    "recipes": [
+      {
+        "slug": "Coffee-Talk-Tokyo-something-sweet-and-cute",
+        "file": "Coffee-Talk-Tokyo-something-sweet-and-cute"
+      },
+      {
+        "slug": "Coffee-Talk-Tokyo-stencil",
+        "file": "Coffee-Talk-Tokyo-stencil"
+      },
+      {
+        "slug": "coffee-talk-tokyo-all-drinks",
+        "file": "coffee-talk-tokyo-all-drinks"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ayame-drink",
+        "file": "coffee-talk-tokyo-ayame-drink"
+      },
+      {
+        "slug": "coffee-talk-tokyo-banana-milk",
+        "file": "coffee-talk-tokyo-banana-milk"
+      },
+      {
+        "slug": "coffee-talk-tokyo-black-coffee",
+        "file": "coffee-talk-tokyo-black-coffee"
+      },
+      {
+        "slug": "coffee-talk-tokyo-cocoa",
+        "file": "coffee-talk-tokyo-cocoa"
+      },
+      {
+        "slug": "coffee-talk-tokyo-drink-guide",
+        "file": "coffee-talk-tokyo-drink-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-drinks",
+        "file": "coffee-talk-tokyo-drinks"
+      },
+      {
+        "slug": "coffee-talk-tokyo-hojicha-recipe",
+        "file": "coffee-talk-tokyo-hojicha-recipe"
+      },
+      {
+        "slug": "coffee-talk-tokyo-hojicha",
+        "file": "coffee-talk-tokyo-hojicha"
+      },
+      {
+        "slug": "coffee-talk-tokyo-jun-drink",
+        "file": "coffee-talk-tokyo-jun-drink"
+      },
+      {
+        "slug": "coffee-talk-tokyo-recipes",
+        "file": "coffee-talk-tokyo-recipes"
+      },
+      {
+        "slug": "coffee-talk-tokyo-royal-milk-tea-recipe",
+        "file": "coffee-talk-tokyo-royal-milk-tea-recipe"
+      },
+      {
+        "slug": "coffee-talk-tokyo-royal-milk-tea",
+        "file": "coffee-talk-tokyo-royal-milk-tea"
+      },
+      {
+        "slug": "coffee-talk-tokyo-warm-hojicha-recipe",
+        "file": "coffee-talk-tokyo-warm-hojicha-recipe"
+      },
+      {
+        "slug": "coffee-talk-tokyo-warm-hojicha",
+        "file": "coffee-talk-tokyo-warm-hojicha"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Coffee-Talk-Tokyo-special-edition",
+        "file": "Coffee-Talk-Tokyo-special-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-collector-s-edition",
+        "file": "coffee-talk-tokyo-collector's-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-collector-edition",
+        "file": "coffee-talk-tokyo-collector-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-delay",
+        "file": "coffee-talk-tokyo-delay"
+      },
+      {
+        "slug": "coffee-talk-tokyo-deluxe-edition",
+        "file": "coffee-talk-tokyo-deluxe-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-is-out",
+        "file": "coffee-talk-tokyo-is-out"
+      },
+      {
+        "slug": "coffee-talk-tokyo-launch-date",
+        "file": "coffee-talk-tokyo-launch-date"
+      },
+      {
+        "slug": "coffee-talk-tokyo-physical-edition",
+        "file": "coffee-talk-tokyo-physical-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-pre-order",
+        "file": "coffee-talk-tokyo-pre-order"
+      },
+      {
+        "slug": "coffee-talk-tokyo-price",
+        "file": "coffee-talk-tokyo-price"
+      },
+      {
+        "slug": "coffee-talk-tokyo-release-date",
+        "file": "coffee-talk-tokyo-release-date"
+      },
+      {
+        "slug": "coffee-talk-tokyo-trailer",
+        "file": "coffee-talk-tokyo-trailer"
+      },
+      {
+        "slug": "coffee-talk-tokyo-when",
+        "file": "coffee-talk-tokyo-when"
+      }
+    ]
+  },
+  "es": {
+    "characters": [
+      {
+        "slug": "coffee-talk-tokyo-ash",
+        "file": "coffee-talk-tokyo-ash"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ayame",
+        "file": "coffee-talk-tokyo-ayame"
+      },
+      {
+        "slug": "coffee-talk-tokyo-characters",
+        "file": "coffee-talk-tokyo-characters"
+      },
+      {
+        "slug": "coffee-talk-tokyo-freya",
+        "file": "coffee-talk-tokyo-freya"
+      },
+      {
+        "slug": "coffee-talk-tokyo-jun",
+        "file": "coffee-talk-tokyo-jun"
+      },
+      {
+        "slug": "coffee-talk-tokyo-returning-characters",
+        "file": "coffee-talk-tokyo-returning-characters"
+      },
+      {
+        "slug": "coffee-talk-tokyo-vin",
+        "file": "coffee-talk-tokyo-vin"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "coffee-talk-tokyo-demo-drinks",
+        "file": "coffee-talk-tokyo-demo-drinks"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo-guide",
+        "file": "coffee-talk-tokyo-demo-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo-length",
+        "file": "coffee-talk-tokyo-demo-length"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo-walkthrough",
+        "file": "coffee-talk-tokyo-demo-walkthrough"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo",
+        "file": "coffee-talk-tokyo-demo"
+      },
+      {
+        "slug": "coffee-talk-tokyo-switch-demo",
+        "file": "coffee-talk-tokyo-switch-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "coffee-talk-tokyo-beginner-guide",
+        "file": "coffee-talk-tokyo-beginner-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ending",
+        "file": "coffee-talk-tokyo-ending"
+      },
+      {
+        "slug": "coffee-talk-tokyo-gameplay",
+        "file": "coffee-talk-tokyo-gameplay"
+      },
+      {
+        "slug": "coffee-talk-tokyo-guide",
+        "file": "coffee-talk-tokyo-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-how-long-to-beat",
+        "file": "coffee-talk-tokyo-how-long-to-beat"
+      },
+      {
+        "slug": "coffee-talk-tokyo-orders",
+        "file": "coffee-talk-tokyo-orders"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ost",
+        "file": "coffee-talk-tokyo-ost"
+      },
+      {
+        "slug": "coffee-talk-tokyo-review",
+        "file": "coffee-talk-tokyo-review"
+      },
+      {
+        "slug": "coffee-talk-tokyo-soundtrack",
+        "file": "coffee-talk-tokyo-soundtrack"
+      },
+      {
+        "slug": "coffee-talk-tokyo-trophy-guide",
+        "file": "coffee-talk-tokyo-trophy-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-walkthrough",
+        "file": "coffee-talk-tokyo-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "coffee-talk-tokyo-android",
+        "file": "coffee-talk-tokyo-android"
+      },
+      {
+        "slug": "coffee-talk-tokyo-consoles",
+        "file": "coffee-talk-tokyo-consoles"
+      },
+      {
+        "slug": "coffee-talk-tokyo-eshop",
+        "file": "coffee-talk-tokyo-eshop"
+      },
+      {
+        "slug": "coffee-talk-tokyo-game-pass",
+        "file": "coffee-talk-tokyo-game-pass"
+      },
+      {
+        "slug": "coffee-talk-tokyo-microsoft-windows-store",
+        "file": "coffee-talk-tokyo-microsoft-windows-store"
+      },
+      {
+        "slug": "coffee-talk-tokyo-mobile",
+        "file": "coffee-talk-tokyo-mobile"
+      },
+      {
+        "slug": "coffee-talk-tokyo-nintendo-switch-2",
+        "file": "coffee-talk-tokyo-nintendo-switch-2"
+      },
+      {
+        "slug": "coffee-talk-tokyo-nintendo-switch",
+        "file": "coffee-talk-tokyo-nintendo-switch"
+      },
+      {
+        "slug": "coffee-talk-tokyo-physical-release",
+        "file": "coffee-talk-tokyo-physical-release"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ps4",
+        "file": "coffee-talk-tokyo-ps4"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ps5",
+        "file": "coffee-talk-tokyo-ps5"
+      },
+      {
+        "slug": "coffee-talk-tokyo-steam",
+        "file": "coffee-talk-tokyo-steam"
+      },
+      {
+        "slug": "coffee-talk-tokyo-switch-2",
+        "file": "coffee-talk-tokyo-switch-2"
+      },
+      {
+        "slug": "coffee-talk-tokyo-switch",
+        "file": "coffee-talk-tokyo-switch"
+      },
+      {
+        "slug": "coffee-talk-tokyo-xbox",
+        "file": "coffee-talk-tokyo-xbox"
+      }
+    ],
+    "recipes": [
+      {
+        "slug": "coffee-talk-tokyo-all-drinks",
+        "file": "coffee-talk-tokyo-all-drinks"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ayame-drink",
+        "file": "coffee-talk-tokyo-ayame-drink"
+      },
+      {
+        "slug": "coffee-talk-tokyo-banana-milk",
+        "file": "coffee-talk-tokyo-banana-milk"
+      },
+      {
+        "slug": "coffee-talk-tokyo-black-coffee",
+        "file": "coffee-talk-tokyo-black-coffee"
+      },
+      {
+        "slug": "coffee-talk-tokyo-cocoa",
+        "file": "coffee-talk-tokyo-cocoa"
+      },
+      {
+        "slug": "coffee-talk-tokyo-drink-guide",
+        "file": "coffee-talk-tokyo-drink-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-drinks",
+        "file": "coffee-talk-tokyo-drinks"
+      },
+      {
+        "slug": "coffee-talk-tokyo-hojicha-recipe",
+        "file": "coffee-talk-tokyo-hojicha-recipe"
+      },
+      {
+        "slug": "coffee-talk-tokyo-hojicha",
+        "file": "coffee-talk-tokyo-hojicha"
+      },
+      {
+        "slug": "coffee-talk-tokyo-jun-drink",
+        "file": "coffee-talk-tokyo-jun-drink"
+      },
+      {
+        "slug": "coffee-talk-tokyo-recipes",
+        "file": "coffee-talk-tokyo-recipes"
+      },
+      {
+        "slug": "coffee-talk-tokyo-royal-milk-tea-recipe",
+        "file": "coffee-talk-tokyo-royal-milk-tea-recipe"
+      },
+      {
+        "slug": "coffee-talk-tokyo-royal-milk-tea",
+        "file": "coffee-talk-tokyo-royal-milk-tea"
+      },
+      {
+        "slug": "coffee-talk-tokyo-warm-hojicha-recipe",
+        "file": "coffee-talk-tokyo-warm-hojicha-recipe"
+      },
+      {
+        "slug": "coffee-talk-tokyo-warm-hojicha",
+        "file": "coffee-talk-tokyo-warm-hojicha"
+      }
+    ],
+    "release": [
+      {
+        "slug": "coffee-talk-tokyo-collector-s-edition",
+        "file": "coffee-talk-tokyo-collector's-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-collector-edition",
+        "file": "coffee-talk-tokyo-collector-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-delay",
+        "file": "coffee-talk-tokyo-delay"
+      },
+      {
+        "slug": "coffee-talk-tokyo-deluxe-edition",
+        "file": "coffee-talk-tokyo-deluxe-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-is-out",
+        "file": "coffee-talk-tokyo-is-out"
+      },
+      {
+        "slug": "coffee-talk-tokyo-launch-date",
+        "file": "coffee-talk-tokyo-launch-date"
+      },
+      {
+        "slug": "coffee-talk-tokyo-physical-edition",
+        "file": "coffee-talk-tokyo-physical-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-pre-order",
+        "file": "coffee-talk-tokyo-pre-order"
+      },
+      {
+        "slug": "coffee-talk-tokyo-price",
+        "file": "coffee-talk-tokyo-price"
+      },
+      {
+        "slug": "coffee-talk-tokyo-release-date",
+        "file": "coffee-talk-tokyo-release-date"
+      },
+      {
+        "slug": "coffee-talk-tokyo-trailer",
+        "file": "coffee-talk-tokyo-trailer"
+      },
+      {
+        "slug": "coffee-talk-tokyo-when",
+        "file": "coffee-talk-tokyo-when"
+      }
+    ]
+  },
+  "fr": {
+    "characters": [
+      {
+        "slug": "coffee-talk-tokyo-ayame",
+        "file": "coffee-talk-tokyo-ayame"
+      },
+      {
+        "slug": "coffee-talk-tokyo-characters",
+        "file": "coffee-talk-tokyo-characters"
+      },
+      {
+        "slug": "coffee-talk-tokyo-freya",
+        "file": "coffee-talk-tokyo-freya"
+      },
+      {
+        "slug": "coffee-talk-tokyo-jun",
+        "file": "coffee-talk-tokyo-jun"
+      },
+      {
+        "slug": "coffee-talk-tokyo-vin",
+        "file": "coffee-talk-tokyo-vin"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "coffee-talk-tokyo-demo-drinks",
+        "file": "coffee-talk-tokyo-demo-drinks"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo-guide",
+        "file": "coffee-talk-tokyo-demo-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo-length",
+        "file": "coffee-talk-tokyo-demo-length"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo-walkthrough",
+        "file": "coffee-talk-tokyo-demo-walkthrough"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo",
+        "file": "coffee-talk-tokyo-demo"
+      },
+      {
+        "slug": "coffee-talk-tokyo-switch-demo",
+        "file": "coffee-talk-tokyo-switch-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "coffee-talk-tokyo-beginner-guide",
+        "file": "coffee-talk-tokyo-beginner-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-gameplay",
+        "file": "coffee-talk-tokyo-gameplay"
+      },
+      {
+        "slug": "coffee-talk-tokyo-guide",
+        "file": "coffee-talk-tokyo-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-how-long-to-beat",
+        "file": "coffee-talk-tokyo-how-long-to-beat"
+      },
+      {
+        "slug": "coffee-talk-tokyo-trophy-guide",
+        "file": "coffee-talk-tokyo-trophy-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-walkthrough",
+        "file": "coffee-talk-tokyo-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "coffee-talk-tokyo-android",
+        "file": "coffee-talk-tokyo-android"
+      },
+      {
+        "slug": "coffee-talk-tokyo-consoles",
+        "file": "coffee-talk-tokyo-consoles"
+      },
+      {
+        "slug": "coffee-talk-tokyo-game-pass",
+        "file": "coffee-talk-tokyo-game-pass"
+      },
+      {
+        "slug": "coffee-talk-tokyo-mobile",
+        "file": "coffee-talk-tokyo-mobile"
+      },
+      {
+        "slug": "coffee-talk-tokyo-nintendo-switch",
+        "file": "coffee-talk-tokyo-nintendo-switch"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ps5",
+        "file": "coffee-talk-tokyo-ps5"
+      },
+      {
+        "slug": "coffee-talk-tokyo-steam",
+        "file": "coffee-talk-tokyo-steam"
+      },
+      {
+        "slug": "coffee-talk-tokyo-switch-2",
+        "file": "coffee-talk-tokyo-switch-2"
+      },
+      {
+        "slug": "coffee-talk-tokyo-switch",
+        "file": "coffee-talk-tokyo-switch"
+      },
+      {
+        "slug": "coffee-talk-tokyo-xbox",
+        "file": "coffee-talk-tokyo-xbox"
+      }
+    ],
+    "recipes": [
+      {
+        "slug": "coffee-talk-tokyo-all-drinks",
+        "file": "coffee-talk-tokyo-all-drinks"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ayame-drink",
+        "file": "coffee-talk-tokyo-ayame-drink"
+      },
+      {
+        "slug": "coffee-talk-tokyo-black-coffee",
+        "file": "coffee-talk-tokyo-black-coffee"
+      },
+      {
+        "slug": "coffee-talk-tokyo-drink-guide",
+        "file": "coffee-talk-tokyo-drink-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-hojicha",
+        "file": "coffee-talk-tokyo-hojicha"
+      },
+      {
+        "slug": "coffee-talk-tokyo-recipes",
+        "file": "coffee-talk-tokyo-recipes"
+      },
+      {
+        "slug": "coffee-talk-tokyo-royal-milk-tea",
+        "file": "coffee-talk-tokyo-royal-milk-tea"
+      },
+      {
+        "slug": "coffee-talk-tokyo-warm-hojicha",
+        "file": "coffee-talk-tokyo-warm-hojicha"
+      }
+    ],
+    "release": [
+      {
+        "slug": "coffee-talk-tokyo-delay",
+        "file": "coffee-talk-tokyo-delay"
+      },
+      {
+        "slug": "coffee-talk-tokyo-is-out",
+        "file": "coffee-talk-tokyo-is-out"
+      },
+      {
+        "slug": "coffee-talk-tokyo-launch-date",
+        "file": "coffee-talk-tokyo-launch-date"
+      },
+      {
+        "slug": "coffee-talk-tokyo-release-date",
+        "file": "coffee-talk-tokyo-release-date"
+      },
+      {
+        "slug": "coffee-talk-tokyo-when",
+        "file": "coffee-talk-tokyo-when"
+      }
+    ]
+  },
+  "ja": {
+    "characters": [
+      {
+        "slug": "coffee-talk-tokyo-ash",
+        "file": "coffee-talk-tokyo-ash"
+      },
+      {
+        "slug": "coffee-talk-tokyo-returning-characters",
+        "file": "coffee-talk-tokyo-returning-characters"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "coffee-talk-tokyo-ending",
+        "file": "coffee-talk-tokyo-ending"
+      },
+      {
+        "slug": "coffee-talk-tokyo-orders",
+        "file": "coffee-talk-tokyo-orders"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ost",
+        "file": "coffee-talk-tokyo-ost"
+      },
+      {
+        "slug": "coffee-talk-tokyo-review",
+        "file": "coffee-talk-tokyo-review"
+      },
+      {
+        "slug": "coffee-talk-tokyo-soundtrack",
+        "file": "coffee-talk-tokyo-soundtrack"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "coffee-talk-tokyo-eshop",
+        "file": "coffee-talk-tokyo-eshop"
+      },
+      {
+        "slug": "coffee-talk-tokyo-microsoft-windows-store",
+        "file": "coffee-talk-tokyo-microsoft-windows-store"
+      },
+      {
+        "slug": "coffee-talk-tokyo-nintendo-switch-2",
+        "file": "coffee-talk-tokyo-nintendo-switch-2"
+      },
+      {
+        "slug": "coffee-talk-tokyo-physical-release",
+        "file": "coffee-talk-tokyo-physical-release"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ps4",
+        "file": "coffee-talk-tokyo-ps4"
+      }
+    ],
+    "recipes": [
+      {
+        "slug": "coffee-talk-tokyo-banana-milk",
+        "file": "coffee-talk-tokyo-banana-milk"
+      },
+      {
+        "slug": "coffee-talk-tokyo-cocoa",
+        "file": "coffee-talk-tokyo-cocoa"
+      },
+      {
+        "slug": "coffee-talk-tokyo-drinks",
+        "file": "coffee-talk-tokyo-drinks"
+      },
+      {
+        "slug": "coffee-talk-tokyo-hojicha-recipe",
+        "file": "coffee-talk-tokyo-hojicha-recipe"
+      },
+      {
+        "slug": "coffee-talk-tokyo-jun-drink",
+        "file": "coffee-talk-tokyo-jun-drink"
+      },
+      {
+        "slug": "coffee-talk-tokyo-royal-milk-tea-recipe",
+        "file": "coffee-talk-tokyo-royal-milk-tea-recipe"
+      },
+      {
+        "slug": "coffee-talk-tokyo-warm-hojicha-recipe",
+        "file": "coffee-talk-tokyo-warm-hojicha-recipe"
+      }
+    ],
+    "release": [
+      {
+        "slug": "coffee-talk-tokyo-collector-s-edition",
+        "file": "coffee-talk-tokyo-collector's-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-collector-edition",
+        "file": "coffee-talk-tokyo-collector-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-deluxe-edition",
+        "file": "coffee-talk-tokyo-deluxe-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-physical-edition",
+        "file": "coffee-talk-tokyo-physical-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-pre-order",
+        "file": "coffee-talk-tokyo-pre-order"
+      },
+      {
+        "slug": "coffee-talk-tokyo-price",
+        "file": "coffee-talk-tokyo-price"
+      },
+      {
+        "slug": "coffee-talk-tokyo-trailer",
+        "file": "coffee-talk-tokyo-trailer"
+      }
+    ]
+  },
+  "ko": {
+    "characters": [
+      {
+        "slug": "coffee-talk-tokyo-ash",
+        "file": "coffee-talk-tokyo-ash"
+      },
+      {
+        "slug": "coffee-talk-tokyo-returning-characters",
+        "file": "coffee-talk-tokyo-returning-characters"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "coffee-talk-tokyo-ending",
+        "file": "coffee-talk-tokyo-ending"
+      },
+      {
+        "slug": "coffee-talk-tokyo-orders",
+        "file": "coffee-talk-tokyo-orders"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ost",
+        "file": "coffee-talk-tokyo-ost"
+      },
+      {
+        "slug": "coffee-talk-tokyo-review",
+        "file": "coffee-talk-tokyo-review"
+      },
+      {
+        "slug": "coffee-talk-tokyo-soundtrack",
+        "file": "coffee-talk-tokyo-soundtrack"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "coffee-talk-tokyo-eshop",
+        "file": "coffee-talk-tokyo-eshop"
+      },
+      {
+        "slug": "coffee-talk-tokyo-microsoft-windows-store",
+        "file": "coffee-talk-tokyo-microsoft-windows-store"
+      },
+      {
+        "slug": "coffee-talk-tokyo-nintendo-switch-2",
+        "file": "coffee-talk-tokyo-nintendo-switch-2"
+      },
+      {
+        "slug": "coffee-talk-tokyo-physical-release",
+        "file": "coffee-talk-tokyo-physical-release"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ps4",
+        "file": "coffee-talk-tokyo-ps4"
+      }
+    ],
+    "recipes": [
+      {
+        "slug": "coffee-talk-tokyo-banana-milk",
+        "file": "coffee-talk-tokyo-banana-milk"
+      },
+      {
+        "slug": "coffee-talk-tokyo-cocoa",
+        "file": "coffee-talk-tokyo-cocoa"
+      },
+      {
+        "slug": "coffee-talk-tokyo-drinks",
+        "file": "coffee-talk-tokyo-drinks"
+      },
+      {
+        "slug": "coffee-talk-tokyo-hojicha-recipe",
+        "file": "coffee-talk-tokyo-hojicha-recipe"
+      },
+      {
+        "slug": "coffee-talk-tokyo-jun-drink",
+        "file": "coffee-talk-tokyo-jun-drink"
+      },
+      {
+        "slug": "coffee-talk-tokyo-royal-milk-tea-recipe",
+        "file": "coffee-talk-tokyo-royal-milk-tea-recipe"
+      },
+      {
+        "slug": "coffee-talk-tokyo-warm-hojicha-recipe",
+        "file": "coffee-talk-tokyo-warm-hojicha-recipe"
+      }
+    ],
+    "release": [
+      {
+        "slug": "coffee-talk-tokyo-collector-s-edition",
+        "file": "coffee-talk-tokyo-collector's-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-collector-edition",
+        "file": "coffee-talk-tokyo-collector-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-deluxe-edition",
+        "file": "coffee-talk-tokyo-deluxe-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-physical-edition",
+        "file": "coffee-talk-tokyo-physical-edition"
+      },
+      {
+        "slug": "coffee-talk-tokyo-pre-order",
+        "file": "coffee-talk-tokyo-pre-order"
+      },
+      {
+        "slug": "coffee-talk-tokyo-price",
+        "file": "coffee-talk-tokyo-price"
+      },
+      {
+        "slug": "coffee-talk-tokyo-trailer",
+        "file": "coffee-talk-tokyo-trailer"
+      }
+    ]
+  },
+  "pt": {
+    "characters": [
+      {
+        "slug": "coffee-talk-tokyo-ayame",
+        "file": "coffee-talk-tokyo-ayame"
+      },
+      {
+        "slug": "coffee-talk-tokyo-characters",
+        "file": "coffee-talk-tokyo-characters"
+      },
+      {
+        "slug": "coffee-talk-tokyo-freya",
+        "file": "coffee-talk-tokyo-freya"
+      },
+      {
+        "slug": "coffee-talk-tokyo-jun",
+        "file": "coffee-talk-tokyo-jun"
+      },
+      {
+        "slug": "coffee-talk-tokyo-vin",
+        "file": "coffee-talk-tokyo-vin"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "coffee-talk-tokyo-demo-drinks",
+        "file": "coffee-talk-tokyo-demo-drinks"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo-guide",
+        "file": "coffee-talk-tokyo-demo-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo-length",
+        "file": "coffee-talk-tokyo-demo-length"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo-walkthrough",
+        "file": "coffee-talk-tokyo-demo-walkthrough"
+      },
+      {
+        "slug": "coffee-talk-tokyo-demo",
+        "file": "coffee-talk-tokyo-demo"
+      },
+      {
+        "slug": "coffee-talk-tokyo-switch-demo",
+        "file": "coffee-talk-tokyo-switch-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "coffee-talk-tokyo-beginner-guide",
+        "file": "coffee-talk-tokyo-beginner-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-gameplay",
+        "file": "coffee-talk-tokyo-gameplay"
+      },
+      {
+        "slug": "coffee-talk-tokyo-guide",
+        "file": "coffee-talk-tokyo-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-how-long-to-beat",
+        "file": "coffee-talk-tokyo-how-long-to-beat"
+      },
+      {
+        "slug": "coffee-talk-tokyo-trophy-guide",
+        "file": "coffee-talk-tokyo-trophy-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-walkthrough",
+        "file": "coffee-talk-tokyo-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "coffee-talk-tokyo-android",
+        "file": "coffee-talk-tokyo-android"
+      },
+      {
+        "slug": "coffee-talk-tokyo-consoles",
+        "file": "coffee-talk-tokyo-consoles"
+      },
+      {
+        "slug": "coffee-talk-tokyo-game-pass",
+        "file": "coffee-talk-tokyo-game-pass"
+      },
+      {
+        "slug": "coffee-talk-tokyo-mobile",
+        "file": "coffee-talk-tokyo-mobile"
+      },
+      {
+        "slug": "coffee-talk-tokyo-nintendo-switch",
+        "file": "coffee-talk-tokyo-nintendo-switch"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ps5",
+        "file": "coffee-talk-tokyo-ps5"
+      },
+      {
+        "slug": "coffee-talk-tokyo-steam",
+        "file": "coffee-talk-tokyo-steam"
+      },
+      {
+        "slug": "coffee-talk-tokyo-switch-2",
+        "file": "coffee-talk-tokyo-switch-2"
+      },
+      {
+        "slug": "coffee-talk-tokyo-switch",
+        "file": "coffee-talk-tokyo-switch"
+      },
+      {
+        "slug": "coffee-talk-tokyo-xbox",
+        "file": "coffee-talk-tokyo-xbox"
+      }
+    ],
+    "recipes": [
+      {
+        "slug": "coffee-talk-tokyo-all-drinks",
+        "file": "coffee-talk-tokyo-all-drinks"
+      },
+      {
+        "slug": "coffee-talk-tokyo-ayame-drink",
+        "file": "coffee-talk-tokyo-ayame-drink"
+      },
+      {
+        "slug": "coffee-talk-tokyo-black-coffee",
+        "file": "coffee-talk-tokyo-black-coffee"
+      },
+      {
+        "slug": "coffee-talk-tokyo-drink-guide",
+        "file": "coffee-talk-tokyo-drink-guide"
+      },
+      {
+        "slug": "coffee-talk-tokyo-hojicha",
+        "file": "coffee-talk-tokyo-hojicha"
+      },
+      {
+        "slug": "coffee-talk-tokyo-recipes",
+        "file": "coffee-talk-tokyo-recipes"
+      },
+      {
+        "slug": "coffee-talk-tokyo-royal-milk-tea",
+        "file": "coffee-talk-tokyo-royal-milk-tea"
+      },
+      {
+        "slug": "coffee-talk-tokyo-warm-hojicha",
+        "file": "coffee-talk-tokyo-warm-hojicha"
+      }
+    ],
+    "release": [
+      {
+        "slug": "coffee-talk-tokyo-delay",
+        "file": "coffee-talk-tokyo-delay"
+      },
+      {
+        "slug": "coffee-talk-tokyo-is-out",
+        "file": "coffee-talk-tokyo-is-out"
+      },
+      {
+        "slug": "coffee-talk-tokyo-launch-date",
+        "file": "coffee-talk-tokyo-launch-date"
+      },
+      {
+        "slug": "coffee-talk-tokyo-release-date",
+        "file": "coffee-talk-tokyo-release-date"
+      },
+      {
+        "slug": "coffee-talk-tokyo-when",
+        "file": "coffee-talk-tokyo-when"
+      }
+    ]
+  }
+}
